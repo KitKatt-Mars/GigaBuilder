@@ -4,7 +4,7 @@
 gameinfo
 {
 	game	"Giga Builder"
-	title	"gigabuilder"
+	title	"Giga Builder"
 	type	"singleplayer_only"
 	supportsvr	"0"
 	filesystem
