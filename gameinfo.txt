@@ -3,10 +3,10 @@
 
 gameinfo
 {
-	game	"mymod3"
-	title	"mymod3"
+	game	"Giga Builder"
+	title	"gigabuilder"
 	type	"singleplayer_only"
-	supportsvr	"1"
+	supportsvr	"0"
 	filesystem
 	{
 		steamappid	"243730"
@@ -35,4 +35,16 @@ gameinfo
 			platform	"|all_source_engine_paths|platform"
 		}
 	}
+	title2	""
+	hasportals	"0"
+	nocrosshair	"1"
+	advcrosshair	"0"
+	nomodels	"1"
+	developer	""
+	developer_url	""
+	manual	""
+	icon	"resource/icon"
+	nodegraph	"0"
+	gamedata	""
+	instancepath	""
 }
