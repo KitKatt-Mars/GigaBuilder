@@ -12,58 +12,47 @@
 	}
 	"1"
 	{
-		"label"	"#GameUI_GameMenu_NewGame"
-		"command"	"OpenNewGameDialog"
+		"label"	"Disconnect"
+		"command"	"DisconnectNoConfirm"
 		"ingameorder"	"1"
+		"onlyingame"	"1"
 	}
 	"2"
 	{
-		"label"	"#GameUI_GameMenu_LoadGame"
-		"command"	"OpenLoadGameDialog"
+		"label"	"#GameUI_GameMenu_NewGame"
+		"command"	"OpenNewGameDialog"
 		"ingameorder"	"2"
 	}
 	"3"
 	{
-		"label"	"#GameUI_GameMenu_SaveGame"
-		"command"	"OpenSaveGameDialog"
+		"label"	"#GameUI_GameMenu_LoadGame"
+		"command"	"OpenLoadGameDialog"
 		"ingameorder"	"3"
-		"onlyingame"	"1"
 	}
 	"4"
 	{
-		"label"	"#GameUI_GameMenu_ActivateVR"
-		"command"	"engine vr_activate"
+		"label"	"#GameUI_GameMenu_SaveGame"
+		"command"	"OpenSaveGameDialog"
 		"ingameorder"	"4"
+		"onlyingame"	"1"
 	}
 	"5"
 	{
-		"label"	"#GameUI_GameMenu_DeactivateVR"
-		"command"	"engine vr_deactivate"
+		"label"	"#GameUI_GameMenu_Options"
+		"command"	"OpenOptionsDialog"
 		"ingameorder"	"5"
 	}
 	"6"
 	{
-		"label"	"#GameUI_Controller"
-		"command"	"OpenControllerDialog"
+		"label"	"#GameUI_GameMenu_Quit"
+		"command"	"Quit"
 		"ingameorder"	"6"
 	}
 	"7"
 	{
-		"label"	"#GameUI_GameMenu_Options"
-		"command"	"OpenOptionsDialog"
-		"ingameorder"	"7"
-	}
-	"8"
-	{
-		"label"	"#GameUI_GameMenu_Quit"
-		"command"	"Quit"
-		"ingameorder"	"8"
-	}
-	"9"
-	{
 		"label"	"Activate Henderson Mode"
 		"command"	"engine kill"
-		"ingameorder"	"9"
+		"ingameorder"	"7"
 		"onlyingame"	"1"
 	}
 }
