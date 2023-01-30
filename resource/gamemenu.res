@@ -5,54 +5,47 @@
 {
 	"0"
 	{
-		"label"	"#GameUI_GameMenu_ResumeGame"
+		"label"	"Resume"
 		"command"	"ResumeGame"
 		"ingameorder"	"0"
 		"onlyingame"	"1"
 	}
 	"1"
 	{
-		"label"	"Disconnect"
-		"command"	"DisconnectNoConfirm"
+		"label"	"Activate Henderson Mode"
+		"command"	"engine kill"
 		"ingameorder"	"1"
 		"onlyingame"	"1"
 	}
 	"2"
 	{
-		"label"	"#GameUI_GameMenu_NewGame"
+		"label"	"New GigaGame"
 		"command"	"OpenNewGameDialog"
 		"ingameorder"	"2"
 	}
 	"3"
 	{
-		"label"	"#GameUI_GameMenu_LoadGame"
+		"label"	"Load GigaGame"
 		"command"	"OpenLoadGameDialog"
 		"ingameorder"	"3"
 	}
 	"4"
 	{
-		"label"	"#GameUI_GameMenu_SaveGame"
+		"label"	"Save GigaGame"
 		"command"	"OpenSaveGameDialog"
 		"ingameorder"	"4"
 		"onlyingame"	"1"
 	}
 	"5"
 	{
-		"label"	"#GameUI_GameMenu_Options"
+		"label"	"Options"
 		"command"	"OpenOptionsDialog"
 		"ingameorder"	"5"
 	}
 	"6"
 	{
-		"label"	"#GameUI_GameMenu_Quit"
+		"label"	"Quit"
 		"command"	"Quit"
 		"ingameorder"	"6"
-	}
-	"7"
-	{
-		"label"	"Activate Henderson Mode"
-		"command"	"engine kill"
-		"ingameorder"	"7"
-		"onlyingame"	"1"
 	}
 }

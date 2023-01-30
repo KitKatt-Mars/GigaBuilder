@@ -3,9 +3,10 @@
 
 gameinfo
 {
-	game	"Giga Builder"
-	title	"Giga Builder"
+	game	"GigaBuilder"
+	title	"GigaBuilder"
 	type	"singleplayer_only"
+	gamelogo	"1"
 	supportsvr	"0"
 	filesystem
 	{
@@ -31,6 +32,8 @@ gameinfo
 			game	"|all_source_engine_paths|ep2"
 			game	"|all_source_engine_paths|episodic"
 			game	"|all_source_engine_paths|hl2"
+			game	"|all_source_engine_paths|../Counter-Strike Source"
+			game	"|all_source_engine_paths|../Counter-Strike Source/cstrike/cstrike_pak.vpk"
 			platform	"|all_source_engine_paths|platform/platform_misc.vpk"
 			platform	"|all_source_engine_paths|platform"
 		}
@@ -44,7 +47,8 @@ gameinfo
 	developer_url	""
 	manual	""
 	icon	"resource/icon"
-	nodegraph	"0"
+	nodegraph	"1"
 	gamedata	""
 	instancepath	""
+	nodifficulty	"1"
 }
