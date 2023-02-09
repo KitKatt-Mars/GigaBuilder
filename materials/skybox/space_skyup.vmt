@@ -1,0 +1,9 @@
+// Made with XBLAH's Modding tool.
+// Download it at https://github.com/jean-knapp/windows-source-modding-tool/releases
+
+"UnlitGeneric"
+{
+	"$basetexture"	"skybox/space_skyup"
+	"$nofog"	"1"
+	"$ignorez"	"1"
+}

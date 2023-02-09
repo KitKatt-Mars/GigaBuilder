@@ -34,6 +34,12 @@ gameinfo
 			game	"|all_source_engine_paths|hl2"
 			game	"|all_source_engine_paths|../Counter-Strike Source"
 			game	"|all_source_engine_paths|../Counter-Strike Source/cstrike/cstrike_pak.vpk"
+			game	"|all_source_engine_paths|../Team Fortress 2/tf"
+			game	"|all_source_engine_paths|../Team Fortress 2/tf/tf2_misc.vpk"
+			game	"|all_source_engine_paths|../Team Fortress 2/tf/tf2_sound_misc.vpk"
+			game	"|all_source_engine_paths|../Team Fortress 2/tf/tf2_textures.vpk"
+			game	"|all_source_engine_paths|../Portal/portal"
+			game	"|all_source_engine_paths|../Portal/portal/portal_pak.vpk"
 			platform	"|all_source_engine_paths|platform/platform_misc.vpk"
 			platform	"|all_source_engine_paths|platform"
 		}
