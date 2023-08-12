@@ -1,0 +1,240 @@
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading D:\Steam\steamapps\sourcemods\GigaBuilder\maps\game\ez2\test.vmf
+Map revision 3
+Could not locate GameData file 
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\game\ez2\test.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (19030 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 10 texinfos to 4
+Reduced 4 texdatas to 4 (65 bytes to 65)
+Writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\game\ez2\test.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\game\ez2\test.bsp
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\game\ez2\test.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing d:\steam\steamapps\sourcemods\gigabuilder\maps\game\ez2\test.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\gigabuilder\maps\game\ez2\test.bsp
+13 faces
+145635 square feet [20971520.00 square inches]
+1 Displacements
+29129 Square Feet [4194634.00 Square Inches]
+13 patches before subdivision
+1035 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 204, max 26
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0005 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 45/32768         540/393216   ( 0.1%) 
+brushsides            1155/65536        9240/524288   ( 1.8%) 
+planes                1586/65536       31720/1310720  ( 2.4%) 
+vertexes                23/65536         276/786432   ( 0.0%) 
+nodes                   39/65536        1248/2097152  ( 0.1%) 
+texinfos                 4/12288         288/884736   ( 0.0%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       67006/0           67006/0        ( 0.0%) 
+faces                   13/65536         728/3670016  ( 0.0%) 
+hdr faces               13/65536         728/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                  41/65536        1312/2097152  ( 0.1%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes            264/65536         528/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               76/512000        304/2048000  ( 0.0%) 
+edges                   49/256000        196/1024000  ( 0.0%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/131072          0/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices             0/131072          0/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       59540/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]         327/393216   ( 0.1%) 
+LDR ambient table       41/65536         164/262144   ( 0.1%) 
+HDR ambient table       41/65536         164/262144   ( 0.1%) 
+LDR leaf ambient        41/65536        1148/1835008  ( 0.1%) 
+HDR leaf ambient         4/65536         112/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/796      ( 0.1%) 
+pakfile               [variable]      118046/0        ( 0.0%) 
+physics               [variable]       19030/4194304  ( 0.5%) 
+physics terrain       [variable]         998/1048576  ( 0.1%) 
+
+Level flags = 2
+
+Total triangle count: 26
+Writing d:\steam\steamapps\sourcemods\gigabuilder\maps\game\ez2\test.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading D:\Steam\steamapps\sourcemods\GigaBuilder\maps\game\ez2\test.vmf
+Map revision 5
+Could not locate GameData file 
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\game\ez2\test.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (19030 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 10 texinfos to 6
+Reduced 4 texdatas to 4 (65 bytes to 65)
+Writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\game\ez2\test.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\game\ez2\test.bsp
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\game\ez2\test.prt
+   5 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 17
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:54  compressed from 80
+writing d:\steam\steamapps\sourcemods\gigabuilder\maps\game\ez2\test.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\gigabuilder\maps\game\ez2\test.bsp
+849 faces
+8991495 square feet [1294775296.00 square inches]
+1 Displacements
+29129 Square Feet [4194634.00 Square Inches]
+849 patches before subdivision
+1871 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 252732, max 368
+transfer lists:   1.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0005 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 45/32768         540/393216   ( 0.1%) 
+brushsides            1155/65536        9240/524288   ( 1.8%) 
+planes                1586/65536       31720/1310720  ( 2.4%) 
+vertexes              1618/65536       19416/786432   ( 2.5%) 
+nodes                 1936/65536       61952/2097152  ( 3.0%) 
+texinfos                 6/12288         432/884736   ( 0.0%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       67006/0           67006/0        ( 0.0%) 
+faces                  849/65536       47544/3670016  ( 1.3%) 
+hdr faces              849/65536       47544/3670016  ( 1.3%) 
+origfaces               44/65536        2464/3670016  ( 0.1%) 
+leaves                1938/65536       62016/2097152  ( 3.0%) 
+leaffaces              895/65536        1790/131072   ( 1.4%) 
+leafbrushes           1270/65536        2540/131072   ( 1.9%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3662/512000      14648/2048000  ( 0.7%) 
+edges                 2067/256000       8268/1024000  ( 0.8%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          2/16384         176/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             22/131072        220/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           348/131072        696/262144   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       59540/0        ( 0.0%) 
+visdata               [variable]          54/16777216 ( 0.0%) 
+entdata               [variable]         850/393216   ( 0.2%) 
+LDR ambient table     1938/65536        7752/262144   ( 3.0%) 
+HDR ambient table     1938/65536        7752/262144   ( 3.0%) 
+LDR leaf ambient      1938/65536       54264/1835008  ( 3.0%) 
+HDR leaf ambient      3914/65536      109592/1835008  ( 6.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/796      ( 0.1%) 
+pakfile               [variable]      118046/0        ( 0.0%) 
+physics               [variable]       19030/4194304  ( 0.5%) 
+physics terrain       [variable]         998/1048576  ( 0.1%) 
+
+Level flags = 2
+
+Total triangle count: 1732
+Writing d:\steam\steamapps\sourcemods\gigabuilder\maps\game\ez2\test.bsp
+12 seconds elapsed

@@ -5,7 +5,7 @@ gameinfo
 {
 	game	"GigaBuilder"
 	title	"GigaBuilder"
-	type	"singleplayer_only"
+	type	"both"
 	gamelogo	"1"
 	supportsvr	"0"
 	filesystem
@@ -40,6 +40,7 @@ gameinfo
 			game	"|all_source_engine_paths|../Team Fortress 2/tf/tf2_textures.vpk"
 			game	"|all_source_engine_paths|../Portal/portal"
 			game	"|all_source_engine_paths|../Portal/portal/portal_pak.vpk"
+			game	"|all_source_engine_paths|../EntropyZero2/entropyzero2/ez2/ez2.vpk"
 			platform	"|all_source_engine_paths|platform/platform_misc.vpk"
 			platform	"|all_source_engine_paths|platform"
 		}
