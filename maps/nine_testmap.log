@@ -1,0 +1,1255 @@
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.vmf
+Map revision 9
+Could not locate GameData file 
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44397 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 13 texinfos to 8
+Reduced 6 texdatas to 6 (133 bytes to 133)
+Writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.prt
+  32 portalclusters
+  94 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1024
+Average clusters visible: 32
+Building PAS...
+Average clusters audible: 32
+visdatasize:516  compressed from 512
+writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+148 faces
+116053 square feet [16711680.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+148 patches before subdivision
+4146 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 80459, max 172
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9499, 2869, 1012)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(822, 135, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(146, 8, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(23, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                144/32768        1728/393216   ( 0.4%) 
+brushsides             864/65536        6912/524288   ( 1.3%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes               271/65536        3252/786432   ( 0.4%) 
+nodes                   85/65536        2720/2097152  ( 0.1%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  148/65536        8288/3670016  ( 0.2%) 
+hdr faces              148/65536        8288/3670016  ( 0.2%) 
+origfaces               73/65536        4088/3670016  ( 0.1%) 
+leaves                  87/65536        2784/2097152  ( 0.1%) 
+leaffaces              161/65536         322/131072   ( 0.2%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1018/512000       4072/2048000  ( 0.2%) 
+edges                  598/256000       2392/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          2/16384         176/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             18/131072        180/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           225/131072        450/262144   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       87792/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        2182/393216   ( 0.6%) 
+LDR ambient table       87/65536         348/262144   ( 0.1%) 
+HDR ambient table       87/65536         348/262144   ( 0.1%) 
+LDR leaf ambient        87/65536        2436/1835008  ( 0.1%) 
+HDR leaf ambient       440/65536       12320/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1610     ( 0.1%) 
+pakfile               [variable]      190358/0        ( 0.0%) 
+physics               [variable]       44397/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 430
+Writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.vmf
+Map revision 11
+Could not locate GameData file 
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44397 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 13 texinfos to 8
+Reduced 6 texdatas to 6 (133 bytes to 133)
+Writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.prt
+  32 portalclusters
+  94 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1024
+Average clusters visible: 32
+Building PAS...
+Average clusters audible: 32
+visdatasize:516  compressed from 512
+writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+148 faces
+116053 square feet [16711680.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+148 patches before subdivision
+4146 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 77704, max 171
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9103, 2739, 958)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(796, 129, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(144, 8, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(22, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                144/32768        1728/393216   ( 0.4%) 
+brushsides             864/65536        6912/524288   ( 1.3%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes               271/65536        3252/786432   ( 0.4%) 
+nodes                   85/65536        2720/2097152  ( 0.1%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  148/65536        8288/3670016  ( 0.2%) 
+hdr faces              148/65536        8288/3670016  ( 0.2%) 
+origfaces               73/65536        4088/3670016  ( 0.1%) 
+leaves                  87/65536        2784/2097152  ( 0.1%) 
+leaffaces              161/65536         322/131072   ( 0.2%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1018/512000       4072/2048000  ( 0.2%) 
+edges                  598/256000       2392/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          2/16384         176/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             18/131072        180/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           225/131072        450/262144   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       87792/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        2183/393216   ( 0.6%) 
+LDR ambient table       87/65536         348/262144   ( 0.1%) 
+HDR ambient table       87/65536         348/262144   ( 0.1%) 
+LDR leaf ambient        87/65536        2436/1835008  ( 0.1%) 
+HDR leaf ambient       440/65536       12320/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2412     ( 0.0%) 
+pakfile               [variable]      216978/0        ( 0.0%) 
+physics               [variable]       44397/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 430
+Writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.vmf
+Map revision 12
+Could not locate GameData file 
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44397 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 13 texinfos to 8
+Reduced 6 texdatas to 6 (133 bytes to 133)
+Writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.prt
+  32 portalclusters
+  94 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1024
+Average clusters visible: 32
+Building PAS...
+Average clusters audible: 32
+visdatasize:516  compressed from 512
+writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+148 faces
+116053 square feet [16711680.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+148 patches before subdivision
+4146 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 77704, max 171
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9103, 2739, 958)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(796, 129, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(144, 8, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(22, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                144/32768        1728/393216   ( 0.4%) 
+brushsides             864/65536        6912/524288   ( 1.3%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes               271/65536        3252/786432   ( 0.4%) 
+nodes                   85/65536        2720/2097152  ( 0.1%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  148/65536        8288/3670016  ( 0.2%) 
+hdr faces              148/65536        8288/3670016  ( 0.2%) 
+origfaces               73/65536        4088/3670016  ( 0.1%) 
+leaves                  87/65536        2784/2097152  ( 0.1%) 
+leaffaces              161/65536         322/131072   ( 0.2%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1018/512000       4072/2048000  ( 0.2%) 
+edges                  598/256000       2392/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          2/16384         176/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             18/131072        180/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           225/131072        450/262144   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       87792/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        2192/393216   ( 0.6%) 
+LDR ambient table       87/65536         348/262144   ( 0.1%) 
+HDR ambient table       87/65536         348/262144   ( 0.1%) 
+LDR leaf ambient        87/65536        2436/1835008  ( 0.1%) 
+HDR leaf ambient       440/65536       12320/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2412     ( 0.0%) 
+pakfile               [variable]      216978/0        ( 0.0%) 
+physics               [variable]       44397/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 430
+Writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.vmf
+Map revision 14
+Could not locate GameData file 
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44397 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 13 texinfos to 8
+Reduced 6 texdatas to 6 (133 bytes to 133)
+Writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.prt
+  32 portalclusters
+  94 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1024
+Average clusters visible: 32
+Building PAS...
+Average clusters audible: 32
+visdatasize:516  compressed from 512
+writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+148 faces
+116053 square feet [16711680.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+148 patches before subdivision
+4146 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 77704, max 171
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12010, 3415, 1105)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1046, 161, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(189, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(29, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                144/32768        1728/393216   ( 0.4%) 
+brushsides             864/65536        6912/524288   ( 1.3%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes               271/65536        3252/786432   ( 0.4%) 
+nodes                   85/65536        2720/2097152  ( 0.1%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  148/65536        8288/3670016  ( 0.2%) 
+hdr faces              148/65536        8288/3670016  ( 0.2%) 
+origfaces               73/65536        4088/3670016  ( 0.1%) 
+leaves                  87/65536        2784/2097152  ( 0.1%) 
+leaffaces              161/65536         322/131072   ( 0.2%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1018/512000       4072/2048000  ( 0.2%) 
+edges                  598/256000       2392/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          2/16384         176/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             18/131072        180/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           225/131072        450/262144   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       87792/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        2190/393216   ( 0.6%) 
+LDR ambient table       87/65536         348/262144   ( 0.1%) 
+HDR ambient table       87/65536         348/262144   ( 0.1%) 
+LDR leaf ambient        87/65536        2436/1835008  ( 0.1%) 
+HDR leaf ambient       447/65536       12516/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2412     ( 0.0%) 
+pakfile               [variable]      216978/0        ( 0.0%) 
+physics               [variable]       44397/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 430
+Writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.vmf
+Map revision 16
+Could not locate GameData file 
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44397 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 13 texinfos to 8
+Reduced 6 texdatas to 6 (133 bytes to 133)
+Writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.prt
+  32 portalclusters
+  94 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1024
+Average clusters visible: 32
+Building PAS...
+Average clusters audible: 32
+visdatasize:516  compressed from 512
+writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+148 faces
+116053 square feet [16711680.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+148 patches before subdivision
+4146 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 80527, max 176
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12054, 3436, 1118)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1052, 162, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(189, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(29, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                144/32768        1728/393216   ( 0.4%) 
+brushsides             864/65536        6912/524288   ( 1.3%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes               271/65536        3252/786432   ( 0.4%) 
+nodes                   85/65536        2720/2097152  ( 0.1%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  148/65536        8288/3670016  ( 0.2%) 
+hdr faces              148/65536        8288/3670016  ( 0.2%) 
+origfaces               73/65536        4088/3670016  ( 0.1%) 
+leaves                  87/65536        2784/2097152  ( 0.1%) 
+leaffaces              161/65536         322/131072   ( 0.2%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1018/512000       4072/2048000  ( 0.2%) 
+edges                  598/256000       2392/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          2/16384         176/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             18/131072        180/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           225/131072        450/262144   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       87792/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        2190/393216   ( 0.6%) 
+LDR ambient table       87/65536         348/262144   ( 0.1%) 
+HDR ambient table       87/65536         348/262144   ( 0.1%) 
+LDR leaf ambient        87/65536        2436/1835008  ( 0.1%) 
+HDR leaf ambient       449/65536       12572/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2412     ( 0.0%) 
+pakfile               [variable]      216978/0        ( 0.0%) 
+physics               [variable]       44397/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 430
+Writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.vmf
+Map revision 17
+Could not locate GameData file 
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44397 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 13 texinfos to 8
+Reduced 6 texdatas to 6 (133 bytes to 133)
+Writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.prt
+  32 portalclusters
+  94 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1024
+Average clusters visible: 32
+Building PAS...
+Average clusters audible: 32
+visdatasize:516  compressed from 512
+writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+148 faces
+116053 square feet [16711680.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+148 patches before subdivision
+4146 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 80527, max 176
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(87, 63, 97)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0009 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                144/32768        1728/393216   ( 0.4%) 
+brushsides             864/65536        6912/524288   ( 1.3%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes               271/65536        3252/786432   ( 0.4%) 
+nodes                   85/65536        2720/2097152  ( 0.1%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  148/65536        8288/3670016  ( 0.2%) 
+hdr faces              148/65536        8288/3670016  ( 0.2%) 
+origfaces               73/65536        4088/3670016  ( 0.1%) 
+leaves                  87/65536        2784/2097152  ( 0.1%) 
+leaffaces              161/65536         322/131072   ( 0.2%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1018/512000       4072/2048000  ( 0.2%) 
+edges                  598/256000       2392/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          2/16384         176/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             18/131072        180/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           225/131072        450/262144   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       87792/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        2350/393216   ( 0.6%) 
+LDR ambient table       87/65536         348/262144   ( 0.1%) 
+HDR ambient table       87/65536         348/262144   ( 0.1%) 
+LDR leaf ambient        87/65536        2436/1835008  ( 0.1%) 
+HDR leaf ambient       331/65536        9268/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2412     ( 0.0%) 
+pakfile               [variable]      216978/0        ( 0.0%) 
+physics               [variable]       44397/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 430
+Writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.vmf
+Map revision 19
+Could not locate GameData file 
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44397 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 13 texinfos to 8
+Reduced 6 texdatas to 6 (133 bytes to 133)
+Writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.prt
+  32 portalclusters
+  94 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1024
+Average clusters visible: 32
+Building PAS...
+Average clusters audible: 32
+visdatasize:516  compressed from 512
+writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+148 faces
+116053 square feet [16711680.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+148 patches before subdivision
+4146 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 80527, max 176
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4107, 1420, 865)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(451, 73, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(62, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                144/32768        1728/393216   ( 0.4%) 
+brushsides             864/65536        6912/524288   ( 1.3%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes               271/65536        3252/786432   ( 0.4%) 
+nodes                   85/65536        2720/2097152  ( 0.1%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  148/65536        8288/3670016  ( 0.2%) 
+hdr faces              148/65536        8288/3670016  ( 0.2%) 
+origfaces               73/65536        4088/3670016  ( 0.1%) 
+leaves                  87/65536        2784/2097152  ( 0.1%) 
+leaffaces              161/65536         322/131072   ( 0.2%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1018/512000       4072/2048000  ( 0.2%) 
+edges                  598/256000       2392/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          2/16384         176/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             18/131072        180/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           225/131072        450/262144   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       87792/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        2350/393216   ( 0.6%) 
+LDR ambient table       87/65536         348/262144   ( 0.1%) 
+HDR ambient table       87/65536         348/262144   ( 0.1%) 
+LDR leaf ambient        87/65536        2436/1835008  ( 0.1%) 
+HDR leaf ambient       426/65536       11928/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2412     ( 0.0%) 
+pakfile               [variable]      216978/0        ( 0.0%) 
+physics               [variable]       44397/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 430
+Writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.vmf
+Map revision 20
+Could not locate GameData file 
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44397 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 13 texinfos to 8
+Reduced 6 texdatas to 6 (133 bytes to 133)
+Writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.prt
+  32 portalclusters
+  94 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1024
+Average clusters visible: 32
+Building PAS...
+Average clusters audible: 32
+visdatasize:516  compressed from 512
+writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+148 faces
+116053 square feet [16711680.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+148 patches before subdivision
+4146 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 80527, max 176
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4634, 1826, 996)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(514, 94, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(73, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(15, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                144/32768        1728/393216   ( 0.4%) 
+brushsides             864/65536        6912/524288   ( 1.3%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes               271/65536        3252/786432   ( 0.4%) 
+nodes                   85/65536        2720/2097152  ( 0.1%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  148/65536        8288/3670016  ( 0.2%) 
+hdr faces              148/65536        8288/3670016  ( 0.2%) 
+origfaces               73/65536        4088/3670016  ( 0.1%) 
+leaves                  87/65536        2784/2097152  ( 0.1%) 
+leaffaces              161/65536         322/131072   ( 0.2%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1018/512000       4072/2048000  ( 0.2%) 
+edges                  598/256000       2392/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          2/16384         176/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             18/131072        180/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           225/131072        450/262144   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       87792/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        2352/393216   ( 0.6%) 
+LDR ambient table       87/65536         348/262144   ( 0.1%) 
+HDR ambient table       87/65536         348/262144   ( 0.1%) 
+LDR leaf ambient        87/65536        2436/1835008  ( 0.1%) 
+HDR leaf ambient       415/65536       11620/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2412     ( 0.0%) 
+pakfile               [variable]      216978/0        ( 0.0%) 
+physics               [variable]       44397/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 430
+Writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.vmf
+Map revision 25
+Could not locate GameData file 
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44397 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 13 texinfos to 8
+Reduced 6 texdatas to 6 (137 bytes to 137)
+Writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.prt
+  32 portalclusters
+  94 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1024
+Average clusters visible: 32
+Building PAS...
+Average clusters audible: 32
+visdatasize:516  compressed from 512
+writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+148 faces
+116053 square feet [16711680.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+148 patches before subdivision
+4146 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 83052, max 176
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4546, 2769, 2194)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(637, 180, 64)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(98, 13, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(23, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                144/32768        1728/393216   ( 0.4%) 
+brushsides             864/65536        6912/524288   ( 1.3%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes               271/65536        3252/786432   ( 0.4%) 
+nodes                   85/65536        2720/2097152  ( 0.1%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  148/65536        8288/3670016  ( 0.2%) 
+hdr faces              148/65536        8288/3670016  ( 0.2%) 
+origfaces               73/65536        4088/3670016  ( 0.1%) 
+leaves                  87/65536        2784/2097152  ( 0.1%) 
+leaffaces              161/65536         322/131072   ( 0.2%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1018/512000       4072/2048000  ( 0.2%) 
+edges                  598/256000       2392/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          2/16384         176/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             18/131072        180/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           225/131072        450/262144   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      310320/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        4023/393216   ( 1.0%) 
+LDR ambient table       87/65536         348/262144   ( 0.1%) 
+HDR ambient table       87/65536         348/262144   ( 0.1%) 
+LDR leaf ambient        87/65536        2436/1835008  ( 0.1%) 
+HDR leaf ambient       409/65536       11452/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2134     ( 0.0%) 
+pakfile               [variable]      180014/0        ( 0.0%) 
+physics               [variable]       44397/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 430
+Writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.vmf
+Map revision 27
+Could not locate GameData file 
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44397 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 13 texinfos to 8
+Reduced 6 texdatas to 6 (137 bytes to 137)
+Writing D:\Steam\steamapps\sourcemods\GigaBuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+reading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.prt
+  32 portalclusters
+  94 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1024
+Average clusters visible: 32
+Building PAS...
+Average clusters audible: 32
+visdatasize:516  compressed from 512
+writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+148 faces
+116053 square feet [16711680.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+148 patches before subdivision
+4146 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 83030, max 176
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12981, 5068, 2609)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1333, 315, 54)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(246, 22, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(42, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                144/32768        1728/393216   ( 0.4%) 
+brushsides             864/65536        6912/524288   ( 1.3%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes               271/65536        3252/786432   ( 0.4%) 
+nodes                   85/65536        2720/2097152  ( 0.1%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  148/65536        8288/3670016  ( 0.2%) 
+hdr faces              148/65536        8288/3670016  ( 0.2%) 
+origfaces               73/65536        4088/3670016  ( 0.1%) 
+leaves                  87/65536        2784/2097152  ( 0.1%) 
+leaffaces              161/65536         322/131072   ( 0.2%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1018/512000       4072/2048000  ( 0.2%) 
+edges                  598/256000       2392/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          2/16384         176/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             18/131072        180/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           225/131072        450/262144   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      310320/0        ( 0.0%) 
+visdata               [variable]         516/16777216 ( 0.0%) 
+entdata               [variable]        4026/393216   ( 1.0%) 
+LDR ambient table       87/65536         348/262144   ( 0.1%) 
+HDR ambient table       87/65536         348/262144   ( 0.1%) 
+LDR leaf ambient        87/65536        2436/1835008  ( 0.1%) 
+HDR leaf ambient       436/65536       12208/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2200     ( 0.0%) 
+pakfile               [variable]      182676/0        ( 0.0%) 
+physics               [variable]       44397/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 430
+Writing d:\steam\steamapps\sourcemods\gigabuilder\maps\nine_testmap.bsp
+1 second elapsed

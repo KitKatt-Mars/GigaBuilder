@@ -1,0 +1,8 @@
+// Made with XBLAH's Modding tool.
+// Download it at https://github.com/jean-knapp/windows-source-modding-tool/releases
+
+"UnlitGeneric"
+{
+	"$basetexture"	"gigabuilder_skybox/haloring_top_basetexture"
+	"%tooltexture"	"gigabuilder_skybox/haloring_top_tooltexture"
+}
