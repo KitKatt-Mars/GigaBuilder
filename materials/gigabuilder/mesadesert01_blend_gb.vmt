@@ -1,0 +1,13 @@
+WorldVertexTransition
+{
+	$basetexture "../../../../sourcemods/gigabuilder/materials/gigabuilder/roughsand_4925"
+	$bumpmap "../../../../sourcemods/gigabuilder/materials/gigabuilder/roughsand_4925_bump"
+	$surfaceprop Sand
+	$ssbump 1
+
+	$basetexture2 "../../../../sourcemods/GigaBuilder/materials/gigabuilder/rock029_diffuse_cg"
+	$bumpmap2 "../../../../sourcemods/GigaBuilder/materials/gigabuilder/rock029_bump_cg"
+	$surfaceprop2 Rock
+
+	%keywords "blend"
+}

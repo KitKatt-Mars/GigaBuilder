@@ -28,7 +28,7 @@ Resource/GameLogo.res
 		tall		100
 		visible		1
 		enabled		1
-		image		../ui/gigabuilder_basetexture
+		image		../vgui/logos/ui/gigabuilder_logo
 		scaleImage	1		
 	}
 }

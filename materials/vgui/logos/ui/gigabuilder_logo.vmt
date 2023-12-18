@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+	$basetexture "vgui/logos/ui/gigabuilder_logo"
+
+	$translucent 1
+
+	$vertexalpha 1
+	$nolod 1
+}

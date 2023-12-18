@@ -4,7 +4,7 @@
 gameinfo
 {
 	game	"GigaBuilder"
-	title	"GigaBuilder"
+	title	""
 	type	"both"
 	gamelogo	"1"
 	supportsvr	"0"
@@ -41,6 +41,8 @@ gameinfo
 			game	"|all_source_engine_paths|../Portal/portal"
 			game	"|all_source_engine_paths|../Portal/portal/portal_pak.vpk"
 			game	"|all_source_engine_paths|../EntropyZero2/entropyzero2/ez2/ez2.vpk"
+			game	"|all_source_engine_paths|../../sourcemods/GigaBuilder/custom/source-models-props-industrial-wood-crate-01.vpk"
+			game	"|all_source_engine_paths|../../sourcemods/GigaBuilder/custom/source-textures-skies-afternoon-clear-afternoon-sky-04.vpk"
 			platform	"|all_source_engine_paths|platform/platform_misc.vpk"
 			platform	"|all_source_engine_paths|platform"
 		}

@@ -23,30 +23,30 @@ Scheme
 	// controls use these to determine their settings
 	BaseSettings
 	{
-		"FgColor"			"255 220 0 100"
+		"FgColor"			"252 121 61 100"
 		"BgColor"			"0 0 0 76"
 
-		"Panel.FgColor"			"255 220 0 100"
+		"Panel.FgColor"			"252 121 61 100"
 		"Panel.BgColor"			"0 0 0 76"
 		
-		"BrightFg"		"255 220 0 255"
+		"BrightFg"		"252 121 61 255"
 
 		"DamagedBg"			"180 0 0 200"
 		"DamagedFg"			"180 0 0 230"
 		"BrightDamagedFg"		"255 0 0 255"
 
 		// weapon selection colors
-		"SelectionNumberFg"		"255 220 0 255"
-		"SelectionTextFg"		"255 220 0 255"
+		"SelectionNumberFg"		"252 121 61 255"
+		"SelectionTextFg"		"252 121 61 255"
 		"SelectionEmptyBoxBg" 	"0 0 0 80"
 		"SelectionBoxBg" 		"0 0 0 80"
 		"SelectionSelectedBoxBg" "0 0 0 80"
 		
-		"ZoomReticleColor"	"255 220 0 255"
+		"ZoomReticleColor"	"252 121 61 255"
 
 		// HL1-style HUD colors
 		"Yellowish"			"255 160 0 255"
-		"Normal"			"255 208 64 255"
+		"Normal"			"252 121 61 255"
 		"Caution"			"255 48 0 255"
 
 		// Top-left corner of the "Half-Life 2" on the main screen
@@ -91,7 +91,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier New"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"14"
 				"weight"	"400"
 				"antialias" "1"
@@ -102,7 +102,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier New"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"14"
 				"weight"	"400"
 				"antialias" "1"
@@ -114,14 +114,14 @@ Scheme
 		{
 			"1"	[$X360]
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"12"
 				"weight"	"700"
 				"antialias" "1"
 			}
 			"1"	[$WIN32]
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"9"
 				"weight"	"700"
 				"antialias" "1"
@@ -129,7 +129,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"12"
 				"weight"	"700"
 				"antialias" "1"
@@ -137,7 +137,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"14"
 				"weight"	"900"
 				"antialias" "1"
@@ -145,7 +145,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"20"
 				"weight"	"900"
 				"antialias" "1"
@@ -153,7 +153,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"24"
 				"weight"	"900"
 				"antialias" "1"
@@ -165,7 +165,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -173,7 +173,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -181,7 +181,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -190,7 +190,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -199,7 +199,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"24"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -208,7 +208,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Arial"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -218,7 +218,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -226,7 +226,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -234,7 +234,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -243,7 +243,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -252,7 +252,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"24"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -261,14 +261,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 			}
 			"7"
 			{
-				"name"		"Arial"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -408,7 +408,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"11"
 				"weight"	"700"
 				"antialias" "1"
@@ -426,7 +426,7 @@ Scheme
 			}
 			"1"	[$WIN32]
 			{
-				"name"		"Verdana" [!$OSX]
+				"name"		"Bahnschrift Condensed" [!$OSX]
 				"name"		"Helvetica Bold" [$OSX]
 				"tall"		"14"
 				"weight"	"1000"
@@ -438,7 +438,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Verdana" [!$OSX]
+				"name"		"Bahnschrift Condensed" [!$OSX]
 				"name"		"Helvetica" [$OSX]
 				"tall"		"11"
 				"weight"	"0"
@@ -458,7 +458,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"8"
 				"weight"	"700"
 				"antialias" "1"
@@ -466,7 +466,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"10"
 				"weight"	"700"
 				"antialias" "1"
@@ -474,7 +474,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"12"
 				"weight"	"900"
 				"antialias" "1"
@@ -482,7 +482,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"16"
 				"weight"	"900"
 				"antialias" "1"
@@ -490,7 +490,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"17"
 				"weight"	"1000"
 				"antialias" "1"

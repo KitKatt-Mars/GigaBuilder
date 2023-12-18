@@ -1,12 +1,10 @@
-﻿// Made with XBLAH's Modding tool.
-// Download it at https://github.com/jean-knapp/windows-source-modding-tool/releases
-
-chapters
+﻿chapters
 {
-	1	"default"
+	1	"gb_background"
 	2	"default"
 	3	"default"
 	4	"default"
 	5	"default"
 	6	"default"
+	7	"default"
 }
