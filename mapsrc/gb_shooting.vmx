@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "2"
+	"mapversion" "13"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "13"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -909,6 +909,28 @@ world
 }
 entity
 {
+	"id" "90"
+	"classname" "vgui_movie_display"
+	"angles" "0 0 0"
+	"displaytext" "MOVIE"
+	"groupname" "default"
+	"height" "128"
+	"looping" "1"
+	"moviefilename" "finalecutscene"
+	"muted" "0"
+	"targetname" "finale"
+	"width" "256"
+	"origin" "-376 208 195.006"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
 	"id" "11"
 	"classname" "info_player_start"
 	"angles" "0 0 0"
@@ -946,8 +968,7 @@ entity
 	"wait" "3"
 	connections
 	{
-		"OnPressed" "shithead,RunScriptFile,test_script,0,-1"
-		"OnPressed" "shithead,RunScriptCode,SetPlayerHealthTo69(),0,-1"
+		"OnPressed" "finale,Enable,,0,-1"
 	}
 	solid
 	{
@@ -1077,18 +1098,55 @@ entity
 }
 entity
 {
-	"id" "39"
-	"classname" "logic_relay"
-	"spawnflags" "0"
-	"StartDisabled" "0"
-	"targetname" "shithead"
-	"origin" "-328 164 178.099"
+	"id" "69"
+	"classname" "point_spotlight"
+	"angles" "60 180 180"
+	"HaloMaterial" "sprites/light_glow03.vmt"
+	"HaloScale" "60"
+	"HDRColorScale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "3"
+	"spotlightlength" "500"
+	"SpotlightMaterial" "sprites/glow_test02.vmt"
+	"spotlightwidth" "50"
+	"origin" "-329.01 160 235.453"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 6000]"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "74"
+	"classname" "light_spot"
+	"_cone" "45"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_inner_cone" "30"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"angles" "-90 0 0"
+	"pitch" "-90"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "-328 160 235.453"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 cameras
