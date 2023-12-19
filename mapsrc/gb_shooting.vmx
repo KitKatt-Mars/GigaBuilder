@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "13"
+	"mapversion" "14"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "13"
+	"mapversion" "14"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -910,16 +910,12 @@ world
 entity
 {
 	"id" "90"
-	"classname" "vgui_movie_display"
-	"angles" "0 0 0"
-	"displaytext" "MOVIE"
-	"groupname" "default"
-	"height" "128"
-	"looping" "1"
+	"classname" "logic_playmovie"
+	"allowskip" "0"
+	"loopvideo" "0"
 	"moviefilename" "finalecutscene"
-	"muted" "0"
+	"mute" "0"
 	"targetname" "finale"
-	"width" "256"
 	"origin" "-376 208 195.006"
 	editor
 	{
@@ -968,7 +964,7 @@ entity
 	"wait" "3"
 	connections
 	{
-		"OnPressed" "finale,Enable,,0,-1"
+		"OnPressed" "fade,Fade,,0,-1"
 	}
 	solid
 	{
@@ -1147,6 +1143,29 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "158"
+	"classname" "env_fade"
+	"duration" "2"
+	"holdtime" "0"
+	"renderamt" "255"
+	"rendercolor" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "fade"
+	connections
+	{
+		"OnBeginFade" "finale,PlayMovie,,2,-1"
+	}
+	"origin" "-328 164 168.845"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
 	}
 }
 cameras
