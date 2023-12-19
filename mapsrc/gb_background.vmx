@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "51"
+	"mapversion" "52"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,12 +72,14 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "51"
+	"mapversion" "52"
 	"classname" "worldspawn"
+	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "afternoon_clear_04"
+	"vscriptlanguage_client" "-2"
 	solid
 	{
 		"id" "2"
@@ -4574,6 +4576,7 @@ entity
 	"acceleration" "500"
 	"angles" "90 0 0"
 	"deceleration" "500"
+	"fov" "75"
 	"interpolatepositiontoplayer" "0"
 	"spawnflags" "60"
 	"speed" "0"
@@ -4594,9 +4597,11 @@ entity
 	"id" "147"
 	"classname" "npc_kleiner"
 	"angles" "0 270 0"
+	"BaseSpeedModifier" "1.0"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
 	"DontUseSpeechSemaphore" "0"
+	"FriendlyFireOverride" "2"
 	"hintlimiting" "0"
 	"ignoreunseenenemies" "0"
 	"model" "models/kleiner.mdl"
@@ -4605,6 +4610,8 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
+	"SetDynamicInteractions" "2"
+	"SetProficiencyOverride" "-1"
 	"sleepstate" "0"
 	"spawnflags" "516"
 	"targetname" "background_npc"
@@ -4629,6 +4636,7 @@ entity
 		"OnMapSpawn" "background_camera,Enable,,0,-1"
 		"OnMapSpawn" "background_npc_sound,PlaySound,,1,-1"
 		"OnMapSpawn" "background_song,PlaySound,,0,-1"
+		"OnMapSpawn" "johnny,ShowHint,,0,-1"
 	}
 	"origin" "0 0 160"
 	editor
@@ -4798,8 +4806,10 @@ entity
 	"fogdir" "1 0 0"
 	"fogenable" "0"
 	"fogend" "2000.0"
+	"fogmaxdensity" "1"
 	"fogstart" "500.0"
 	"scale" "16"
+	"skycolor" "255 255 255 0"
 	"use_angles" "0"
 	"origin" "0 0 2048"
 	editor
@@ -4850,6 +4860,27 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "959"
+	"classname" "env_instructor_hint"
+	"hint_allow_nodraw_target" "1"
+	"hint_caption" "The Dinge can be seen over here!"
+	"hint_color" "255 255 255"
+	"hint_icon_offscreen" "icon_run"
+	"hint_icon_onscreen" "icon_run"
+	"hint_start_sound" "Instructor.LessonStart"
+	"hint_static" "1"
+	"targetname" "johnny"
+	"origin" "96 -16 22.3877"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
