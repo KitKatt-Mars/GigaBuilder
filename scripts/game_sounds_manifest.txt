@@ -1,0 +1,6 @@
+Test.Garry_testscene
+{
+	channel		CHAN_VOICE
+	soundlevel	SNDLVL_TALKING
+	wave		"*/sound/garryspeaker.wav
+}
