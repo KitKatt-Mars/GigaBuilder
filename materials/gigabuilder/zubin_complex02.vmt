@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+	$basetexture "gigabuilder/zubin_complex"
+
+	$alphatest 1
+}

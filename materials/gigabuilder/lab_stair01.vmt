@@ -1,0 +1,9 @@
+// Made with XBLAH's Modding tool.
+// Download it at https://github.com/jean-knapp/windows-source-modding-tool/releases
+
+"LightmappedGeneric"
+{
+	"$basetexture"	"gigabuilder/lab_stair01_basetexture"
+	"%tooltexture"	"gigabuilder/lab_stair01_tooltexture"
+	"$bumpmap"	"gigabuilder/lab_stair01_bumpmap"
+}
