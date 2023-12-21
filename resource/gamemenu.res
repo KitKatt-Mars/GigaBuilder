@@ -5,7 +5,7 @@
 {
 	"0"
 	{
-		"label"	"Resume"
+		"label"	"Resume GigaGame"
 		"command"	"ResumeGame"
 		"ingameorder"	"0"
 		"onlyingame"	"1"
@@ -38,14 +38,20 @@
 	}
 	"5"
 	{
-		"label"	"Options"
-		"command"	"OpenOptionsDialog"
+		"label"	"Join GigaGame"
+		"command"	"OpenServerBrowser"
 		"ingameorder"	"5"
 	}
 	"6"
 	{
-		"label"	"Quit"
-		"command"	"Quit"
+		"label"	"GigaOptions"
+		"command"	"OpenOptionsDialog"
 		"ingameorder"	"6"
+	}
+	"7"
+	{
+		"label"	"GigaQuit"
+		"command"	"Quit"
+		"ingameorder"	"7"
 	}
 }
