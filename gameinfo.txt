@@ -15,7 +15,7 @@ gameinfo
 		{
 			game	"|gameinfo_path|custom/*"
 			game+mod+mod_write+default_write_path	"|gameinfo_path|."
-			gamebin	"|gameinfo_path|bin"
+			gamebin	"|gameinfo_path|bin"			gamebin	"|gameinfo_path|../mapbase_episodic/bin"
 			game+mod	"|gameinfo_path|../mapbase_episodic"
 			game+mod	"|gameinfo_path|../mapbase_episodic/content/*"
 			game+mod	"|gameinfo_path|../mapbase_hl2"
@@ -46,8 +46,6 @@ gameinfo
 			game	"|all_source_engine_paths|../Team Fortress 2/tf/tf2_sound_misc.vpk"
 			game	"|all_source_engine_paths|../Team Fortress 2/tf/tf2_textures.vpk"
 			game	"|all_source_engine_paths|../Portal/portal"
-			game	"E:\SteamLibrary\steamapps\common\Counter-Strike Source\cstrike"
-			game	"E:\SteamLibrary\steamapps\common\Counter-Strike Source\cstrike\cstrike_pak_dir.vpk"
 			game	"|all_source_engine_paths|../Portal/portal/portal_pak.vpk"
 			game	"|all_source_engine_paths|../EntropyZero2/entropyzero2/ez2/ez2.vpk"
 			game	"|all_source_engine_paths|../../sourcemods/GigaBuilder/custom/source-models-props-industrial-wood-crate-01.vpk"
