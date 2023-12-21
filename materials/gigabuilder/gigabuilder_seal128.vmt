@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	$basetexture "gigabuilder/gigabuilder_seal128"
+
+	$alphatest 1
+
+	$vertexalpha 1
+}
