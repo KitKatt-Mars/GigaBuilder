@@ -1,0 +1,7 @@
+// Made with XBLAH's Modding tool.
+// Download it at https://modding-assets.net/items/source/tools/modding/xblah-modding-tool
+
+"unlitgeneric"
+{
+	"$basetexture"	"preview/unlitgeneric_basetexture"
+}
