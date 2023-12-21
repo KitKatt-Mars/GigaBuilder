@@ -45,21 +45,21 @@ Scheme
 		"ZoomReticleColor"	"252 121 61 255"
 
 		// HL1-style HUD colors
-		"Yellowish"			"255 160 0 255"
+		"Yellowish"			"252 121 61 255"
 		"Normal"			"252 121 61 255"
-		"Caution"			"255 48 0 255"
+		"Caution"			"252 121 61 255"
 
 		// Top-left corner of the "Half-Life 2" on the main screen
 		"Main.Title1.X"				"53"
 		"Main.Title1.Y"				"190"
 		"Main.Title1.Y_hidef"		"130"
-		"Main.Title1.Color"	"255 255 255 255"
+		"Main.Title1.Color"	"252 121 61 255"
 
 		// Top-left corner of secondary title e.g. "DEMO" on the main screen
 		"Main.Title2.X"				"76"
 		"Main.Title2.Y"				"190"
 		"Main.Title2.Y_hidef"		"174"
-		"Main.Title2.Color"	"255 255 255 200"
+		"Main.Title2.Color"	"252 121 61 200"
 
 		// Top-left corner of the menu on the main screen
 		"Main.Menu.X"			"53"
@@ -354,7 +354,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"32"	[$WIN32]
 				"tall"		"38"	[$X360]
 				"weight"	"0"
@@ -379,7 +379,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
+				"name"		"Bahnschrift Condensed"
 				"tall"		"32"	[$WIN32]
 				"tall"		"38"	[$X360]
 				"weight"	"0"
@@ -394,8 +394,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2" [!$OSX]
-				"name"		"Helvetica Bold" [$OSX]
+				"name"		"Bahnschrift Condensed" [!$OSX]
+				"name"		"Bahnschrift Condensed" [$OSX]
 				"tall"		"16"	[$WIN32]
 				"tall"		"22"	[$X360]
 				"weight"	"1000"
@@ -427,7 +427,7 @@ Scheme
 			"1"	[$WIN32]
 			{
 				"name"		"Bahnschrift Condensed" [!$OSX]
-				"name"		"Helvetica Bold" [$OSX]
+				"name"		"Bahnschrift Condensed" [$OSX]
 				"tall"		"14"
 				"weight"	"1000"
 				"antialias" "1"
@@ -439,7 +439,7 @@ Scheme
 			"1"	[$WIN32]
 			{
 				"name"		"Bahnschrift Condensed" [!$OSX]
-				"name"		"Helvetica" [$OSX]
+				"name"		"Bahnschrift Condensed" [$OSX]
 				"tall"		"11"
 				"weight"	"0"
 				"antialias" "1"
@@ -784,6 +784,76 @@ Scheme
 			
 		}
 	}
+	Scheme
+{
+	Fonts
+	{
+		// CS:S weapons
+		"CSS_WeaponIcons"
+		{
+			"1"
+			{
+				"name"		"cs"
+				"tall"		"92" // 64
+				"tall_hidef"	"86" // 58
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+		"CSS_WeaponIconsSelected"
+		{
+			"1"
+			{
+				"name"		"cs"
+				"tall"		"92" // 64
+				"tall_hidef"	"86" // 58
+				"weight"	"0"
+				"antialias" "1"
+				"blur"		"5"
+				"scanlines"	"2"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+		"CSS_WeaponIconsSmall"
+		{
+			"1"
+			{
+				"name"		"cs"
+				"tall"		"32"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+		
+		"CSS_WeaponIconsSmall2"
+		{
+			"1"
+			{
+				"name"		"Counter-Strike-HL2-style"
+				"tall"		"32"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+	}
+
+	CustomFontFiles
+	{
+		"1"		"resource/HALFLIFE2.ttf"
+		"2"		"resource/HL2crosshairs.ttf"
+		"3"		"resource/HL2EP2.ttf"
+		"4"		"resource/cs.ttf" // CS:S weapons
+		"5"		"resource/cs_hl2_custom.ttf" // CS:S weapons
+	}
+
+}
 
 	
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////

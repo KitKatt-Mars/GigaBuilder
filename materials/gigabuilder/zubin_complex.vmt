@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	$basetexture "gigabuilder/zubincompelx"
+
+	$alphatest 1
+
+	$vertexalpha 1
+	$nolod 1
+}

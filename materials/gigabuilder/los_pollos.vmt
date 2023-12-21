@@ -1,0 +1,10 @@
+Decal
+{
+	$basetexture "gigabuilder/los_pollos"
+
+	$alphatest 1
+	$decal 1
+
+	$vertexalpha 1
+	$nolod 1
+}
