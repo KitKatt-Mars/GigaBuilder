@@ -25,33 +25,48 @@
 	}
 	"3"
 	{
-		"label"	"Load GigaGame"
-		"command"	"OpenLoadGameDialog"
+		"label"	"Create Giga-Multiplayer Game"
+		"command"	"OpenCreateMultiplayerGameDialog"
 		"ingameorder"	"3"
 	}
 	"4"
 	{
-		"label"	"Save GigaGame"
-		"command"	"OpenSaveGameDialog"
+		"label"	"Load GigaGame"
+		"command"	"OpenLoadGameDialog"
 		"ingameorder"	"4"
-		"onlyingame"	"1"
 	}
 	"5"
 	{
-		"label"	"Join GigaGame"
-		"command"	"OpenServerBrowser"
+		"label"	"Save GigaGame"
+		"command"	"OpenSaveGameDialog"
 		"ingameorder"	"5"
+		"onlyingame"	"1"
+		"nomulti"	"1"
 	}
 	"6"
 	{
-		"label"	"GigaOptions"
-		"command"	"OpenOptionsDialog"
+		"label"	"Join GigaGame"
+		"command"	"OpenServerBrowser"
 		"ingameorder"	"6"
 	}
 	"7"
 	{
-		"label"	"GigaQuit"
-		"command"	"Quit"
+		"label"	"Giga Disconnect"
+		"command"	"Disconnect"
 		"ingameorder"	"7"
+		"onlyingame"	"1"
+		"nosingle"	"1"
+	}
+	"8"
+	{
+		"label"	"Giga Options"
+		"command"	"OpenOptionsDialog"
+		"ingameorder"	"8"
+	}
+	"9"
+	{
+		"label"	"Giga Quit"
+		"command"	"Quit"
+		"ingameorder"	"9"
 	}
 }
