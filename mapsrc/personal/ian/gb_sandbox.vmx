@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "105"
+	"mapversion" "107"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "105"
+	"mapversion" "107"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -246,9 +246,9 @@ world
 				"v" "640 -256 128"
 				"v" "640 384 128"
 			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 -0] 0.25"
+			"material" "GIGABUILDER/ROBCANTORPLUSH"
+			"uaxis" "[0 1 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4207,9 +4207,9 @@ world
 				"v" "798 386 71"
 				"v" "798 386 110"
 			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 -0 0 16] 0.125"
-			"vaxis" "[0 0 -1 -93.0552] 0.0762"
+			"material" "GIGABUILDER/ROBCANTORPLUSH"
+			"uaxis" "[1 0 0 16] 0.01"
+			"vaxis" "[0 0 -1 -93.0552] 0.01"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4225,9 +4225,9 @@ world
 				"v" "734 384 71"
 				"v" "734 384 110"
 			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 -0 0 -43.4] 10"
-			"vaxis" "[0 0 -1 17.6] 10"
+			"material" "GIGABUILDER/ROBCANTORPLUSH"
+			"uaxis" "[1 0 0 -43.4] 0.01"
+			"vaxis" "[0 0 -1 17.6] 0.01"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4243,9 +4243,9 @@ world
 				"v" "734 386 71"
 				"v" "734 386 110"
 			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[0 1 0 10] 10"
-			"vaxis" "[0 0 -1 17.6] 10"
+			"material" "GIGABUILDER/ROBCANTORPLUSH"
+			"uaxis" "[0 1 0 10] 0.01"
+			"vaxis" "[0 0 -1 17.6] 0.01"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4261,9 +4261,9 @@ world
 				"v" "798 384 71"
 				"v" "798 384 110"
 			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[0 1 0 10] 10"
-			"vaxis" "[0 0 -1 17.6] 10"
+			"material" "GIGABUILDER/ROBCANTORPLUSH"
+			"uaxis" "[0 1 0 10] 0.01"
+			"vaxis" "[0 0 -1 17.6] 0.01"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4279,9 +4279,9 @@ world
 				"v" "734 384 71"
 				"v" "798 384 71"
 			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 -0 0 -43.4] 10"
-			"vaxis" "[-0 -1 0 -6] 10"
+			"material" "GIGABUILDER/ROBCANTORPLUSH"
+			"uaxis" "[1 0 0 -43.4] 0.01"
+			"vaxis" "[0 -1 0 -6] 0.01"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4297,9 +4297,9 @@ world
 				"v" "798 384 110"
 				"v" "734 384 110"
 			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 -0 0 -43.4] 10"
-			"vaxis" "[-0 -1 0 -6] 10"
+			"material" "GIGABUILDER/ROBCANTORPLUSH"
+			"uaxis" "[1 0 0 -43.4] 0.01"
+			"vaxis" "[0 -1 0 -6] 0.01"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4307,478 +4307,6 @@ world
 		editor
 		{
 			"color" "0 192 213"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "3561"
-		side
-		{
-			"id" "943"
-			"plane" "(798 384 71) (798 386 71) (798 386 110)"
-			vertices_plus
-			{
-				"v" "798 384 71"
-				"v" "798 386 71"
-				"v" "798 386 110"
-				"v" "798 384 110"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[0 1 0 -7] 0.05"
-			"vaxis" "[-0 0 -1 20.6] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "942"
-			"plane" "(800 386 71) (800 384 71) (800 384 110)"
-			vertices_plus
-			{
-				"v" "800 386 71"
-				"v" "800 384 71"
-				"v" "800 384 110"
-				"v" "800 386 110"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[0 1 0 -7] 0.05"
-			"vaxis" "[-0 0 -1 20.6] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "941"
-			"plane" "(800 384 71) (800 386 71) (798 386 71)"
-			vertices_plus
-			{
-				"v" "800 384 71"
-				"v" "800 386 71"
-				"v" "798 386 71"
-				"v" "798 384 71"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 0 0 -9.39999] 0.05"
-			"vaxis" "[-0 -1 0 11] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "940"
-			"plane" "(798 384 110) (798 386 110) (800 386 110)"
-			vertices_plus
-			{
-				"v" "798 384 110"
-				"v" "798 386 110"
-				"v" "800 386 110"
-				"v" "800 384 110"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 0 0 -9.39999] 0.05"
-			"vaxis" "[-0 -1 0 11] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "939"
-			"plane" "(798 386 110) (798 386 71) (800 386 71)"
-			vertices_plus
-			{
-				"v" "798 386 110"
-				"v" "798 386 71"
-				"v" "800 386 71"
-				"v" "800 386 110"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 0 0 -9.39999] 0.05"
-			"vaxis" "[-0 0 -1 20.6] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "938"
-			"plane" "(800 384 110) (800 384 71) (798 384 71)"
-			vertices_plus
-			{
-				"v" "800 384 110"
-				"v" "800 384 71"
-				"v" "798 384 71"
-				"v" "798 384 110"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 0 0 -9.39999] 0.05"
-			"vaxis" "[-0 0 -1 20.6] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 156 225"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "3562"
-		side
-		{
-			"id" "949"
-			"plane" "(800 386 110) (732 386 110) (732 384 110)"
-			vertices_plus
-			{
-				"v" "800 386 110"
-				"v" "732 386 110"
-				"v" "732 384 110"
-				"v" "800 384 110"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 0 0 -3.39999] 0.05"
-			"vaxis" "[-0 -1 0 10] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "948"
-			"plane" "(732 386 112) (800 386 112) (800 384 112)"
-			vertices_plus
-			{
-				"v" "732 386 112"
-				"v" "800 386 112"
-				"v" "800 384 112"
-				"v" "732 384 112"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 0 0 -3.39999] 0.05"
-			"vaxis" "[-0 -1 0 10] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "947"
-			"plane" "(732 386 110) (800 386 110) (800 386 112)"
-			vertices_plus
-			{
-				"v" "732 386 110"
-				"v" "800 386 110"
-				"v" "800 386 112"
-				"v" "732 386 112"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 0 0 -3.39999] 0.05"
-			"vaxis" "[-0 0 -1 20.6] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "946"
-			"plane" "(800 384 110) (732 384 110) (732 384 112)"
-			vertices_plus
-			{
-				"v" "800 384 110"
-				"v" "732 384 110"
-				"v" "732 384 112"
-				"v" "800 384 112"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 0 0 -3.39999] 0.05"
-			"vaxis" "[-0 0 -1 20.6] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "945"
-			"plane" "(732 384 110) (732 386 110) (732 386 112)"
-			vertices_plus
-			{
-				"v" "732 384 110"
-				"v" "732 386 110"
-				"v" "732 386 112"
-				"v" "732 384 112"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[0 1 0 -6] 0.05"
-			"vaxis" "[-0 0 -1 20.6] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "944"
-			"plane" "(800 386 110) (800 384 110) (800 384 112)"
-			vertices_plus
-			{
-				"v" "800 386 110"
-				"v" "800 384 110"
-				"v" "800 384 112"
-				"v" "800 386 112"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[0 1 0 -6] 0.05"
-			"vaxis" "[-0 0 -1 20.6] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 194 127"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "3563"
-		side
-		{
-			"id" "955"
-			"plane" "(732 386 110) (732 386 71) (734 386 71)"
-			vertices_plus
-			{
-				"v" "732 386 110"
-				"v" "732 386 71"
-				"v" "734 386 71"
-				"v" "734 386 110"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 0 0 -3.39999] 0.05"
-			"vaxis" "[-0 0 -1 20.6] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "954"
-			"plane" "(734 384 110) (734 384 71) (732 384 71)"
-			vertices_plus
-			{
-				"v" "734 384 110"
-				"v" "734 384 71"
-				"v" "732 384 71"
-				"v" "732 384 110"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 0 0 -3.39999] 0.05"
-			"vaxis" "[-0 0 -1 20.6] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "953"
-			"plane" "(732 384 110) (732 384 71) (732 386 71)"
-			vertices_plus
-			{
-				"v" "732 384 110"
-				"v" "732 384 71"
-				"v" "732 386 71"
-				"v" "732 386 110"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[0 1 0 -7] 0.05"
-			"vaxis" "[-0 0 -1 20.6] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "952"
-			"plane" "(734 386 110) (734 386 71) (734 384 71)"
-			vertices_plus
-			{
-				"v" "734 386 110"
-				"v" "734 386 71"
-				"v" "734 384 71"
-				"v" "734 384 110"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[0 1 0 -7] 0.05"
-			"vaxis" "[-0 0 -1 20.6] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "951"
-			"plane" "(734 386 71) (732 386 71) (732 384 71)"
-			vertices_plus
-			{
-				"v" "734 386 71"
-				"v" "732 386 71"
-				"v" "732 384 71"
-				"v" "734 384 71"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 0 0 -3.39999] 0.05"
-			"vaxis" "[-0 -1 0 11] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "950"
-			"plane" "(732 386 110) (734 386 110) (734 384 110)"
-			vertices_plus
-			{
-				"v" "732 386 110"
-				"v" "734 386 110"
-				"v" "734 384 110"
-				"v" "732 384 110"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 0 0 -3.39999] 0.05"
-			"vaxis" "[-0 -1 0 11] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 180 249"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "3564"
-		side
-		{
-			"id" "961"
-			"plane" "(732 386 71) (732 386 69) (800 386 69)"
-			vertices_plus
-			{
-				"v" "732 386 71"
-				"v" "732 386 69"
-				"v" "800 386 69"
-				"v" "800 386 71"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 0 0 -3.39999] 0.05"
-			"vaxis" "[-0 0 -1 17.6] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "960"
-			"plane" "(800 384 71) (800 384 69) (732 384 69)"
-			vertices_plus
-			{
-				"v" "800 384 71"
-				"v" "800 384 69"
-				"v" "732 384 69"
-				"v" "732 384 71"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 0 0 -3.39999] 0.05"
-			"vaxis" "[-0 0 -1 17.6] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "959"
-			"plane" "(732 384 71) (732 384 69) (732 386 69)"
-			vertices_plus
-			{
-				"v" "732 384 71"
-				"v" "732 384 69"
-				"v" "732 386 69"
-				"v" "732 386 71"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[0 1 0 -6] 0.05"
-			"vaxis" "[-0 0 -1 17.6] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "958"
-			"plane" "(800 386 71) (800 386 69) (800 384 69)"
-			vertices_plus
-			{
-				"v" "800 386 71"
-				"v" "800 386 69"
-				"v" "800 384 69"
-				"v" "800 384 71"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[0 1 0 -6] 0.05"
-			"vaxis" "[-0 0 -1 17.6] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "957"
-			"plane" "(800 386 69) (732 386 69) (732 384 69)"
-			vertices_plus
-			{
-				"v" "800 386 69"
-				"v" "732 386 69"
-				"v" "732 384 69"
-				"v" "800 384 69"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 0 0 -3.39999] 0.05"
-			"vaxis" "[-0 -1 0 10] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "956"
-			"plane" "(732 386 71) (800 386 71) (800 384 71)"
-			vertices_plus
-			{
-				"v" "732 386 71"
-				"v" "800 386 71"
-				"v" "800 384 71"
-				"v" "732 384 71"
-			}
-			"material" "GIGABUILDER/ZUBIN"
-			"uaxis" "[1 0 0 -3.39999] 0.05"
-			"vaxis" "[-0 -1 0 10] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 228 141"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -4900,6 +4428,108 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "4765"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_canal/refinery_05_skybox.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2664 6456 -2368"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "4784"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_canal/refinery_01_skybox.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2440 6392 -2360"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "4432"
+	"classname" "npc_maker"
+	"additionalequipment" "weapon_stunstick"
+	"angles" "0 0 0"
+	"MaxLiveChildren" "5"
+	"MaxNPCCount" "10"
+	"NPCType" "npc_metropolice"
+	"SpawnFrequency" "5"
+	"StartDisabled" "1"
+	"targetname" "npcmaker"
+	"origin" "-384 112 -496"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "4721"
+	"classname" "prop_static"
+	"angles" "0 240 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_buildings/project_building02_skybox.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "4456 4872 -2368"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
 	}
 }
 entity
@@ -10630,108 +10260,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
-	"id" "4432"
-	"classname" "npc_maker"
-	"additionalequipment" "weapon_stunstick"
-	"angles" "0 0 0"
-	"MaxLiveChildren" "5"
-	"MaxNPCCount" "10"
-	"NPCType" "npc_metropolice"
-	"SpawnFrequency" "5"
-	"StartDisabled" "1"
-	"targetname" "npcmaker"
-	"origin" "-384 112 -496"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
-	"id" "4721"
-	"classname" "prop_static"
-	"angles" "0 240 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_buildings/project_building02_skybox.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "4456 4872 -2368"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3500]"
-	}
-}
-entity
-{
-	"id" "4765"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_canal/refinery_05_skybox.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "2664 6456 -2368"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3500]"
-	}
-}
-entity
-{
-	"id" "4784"
-	"classname" "prop_static"
-	"angles" "0 180 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_canal/refinery_01_skybox.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "2440 6392 -2360"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3500]"
 	}
 }
 cameras
