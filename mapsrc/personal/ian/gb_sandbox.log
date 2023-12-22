@@ -5927,3 +5927,1309 @@ Level flags = 0
 Total triangle count: 1026
 Writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
 1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.vmf
+Could not locate GameData file 
+Patching WVT material: maps/gb_sandbox/nature/blendgrassdirt01_wvt_patch
+Patching WVT material: maps/gb_sandbox/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (27567 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 266 texinfos to 117
+Reduced 17 texdatas to 14 (421 bytes to 358)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.prt
+  54 portalclusters
+ 122 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2388
+Average clusters visible: 44
+Building PAS...
+Average clusters audible: 51
+visdatasize:1186  compressed from 864
+writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+541 faces
+933558 square feet [134432352.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+541 patches before subdivision
+20677 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 303851, max 444
+transfer lists:   2.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1396, 1333, 704)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(43, 37, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6, 6, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0048 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                 65/8192          780/98304    ( 0.8%) 
+brushsides             396/65536        3168/524288   ( 0.6%) 
+planes                 492/65536        9840/1310720  ( 0.8%) 
+vertexes               693/65536        8316/786432   ( 1.1%) 
+nodes                  398/65536       12736/2097152  ( 0.6%) 
+texinfos               117/12288        8424/884736   ( 1.0%) 
+texdata                 14/2048          448/65536    ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  541/65536       30296/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              207/65536       11592/3670016  ( 0.3%) 
+leaves                 425/65536       13600/2097152  ( 0.6%) 
+leaffaces              551/65536        1102/131072   ( 0.8%) 
+leafbrushes            221/65536         442/131072   ( 0.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             3118/512000      12472/2048000  ( 0.6%) 
+edges                 1618/256000       6472/1024000  ( 0.6%) 
+LDR worldlights          4/65536         352/5767168  ( 0.0%) 
+HDR worldlights          0/65536           0/5767168  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           144/65536         288/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      571548/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1186/16777216 ( 0.0%) 
+entdata               [variable]       36778/393216   ( 9.4%) 
+LDR ambient table      425/65536        1700/262144   ( 0.6%) 
+HDR ambient table      425/65536        1700/262144   ( 0.6%) 
+LDR leaf ambient      1011/65536       28308/1835008  ( 1.5%) 
+HDR leaf ambient       425/65536       11900/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/594      ( 0.2%) 
+pakfile               [variable]         724/0        ( 0.0%) 
+physics               [variable]       27567/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1216
+Writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.vmf
+Could not locate GameData file 
+Patching WVT material: maps/gb_sandbox/nature/blendgrassdirt01_wvt_patch
+Patching WVT material: maps/gb_sandbox/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (27631 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 266 texinfos to 117
+Reduced 17 texdatas to 14 (421 bytes to 358)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.prt
+  54 portalclusters
+ 122 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2388
+Average clusters visible: 44
+Building PAS...
+Average clusters audible: 51
+visdatasize:1186  compressed from 864
+writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+541 faces
+1042215 square feet [150079072.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+541 patches before subdivision
+20677 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 302224, max 444
+transfer lists:   2.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1395, 1332, 703)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(43, 37, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6, 6, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0050 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                 65/8192          780/98304    ( 0.8%) 
+brushsides             396/65536        3168/524288   ( 0.6%) 
+planes                 492/65536        9840/1310720  ( 0.8%) 
+vertexes               697/65536        8364/786432   ( 1.1%) 
+nodes                  398/65536       12736/2097152  ( 0.6%) 
+texinfos               117/12288        8424/884736   ( 1.0%) 
+texdata                 14/2048          448/65536    ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  541/65536       30296/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              207/65536       11592/3670016  ( 0.3%) 
+leaves                 425/65536       13600/2097152  ( 0.6%) 
+leaffaces              551/65536        1102/131072   ( 0.8%) 
+leafbrushes            221/65536         442/131072   ( 0.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             3118/512000      12472/2048000  ( 0.6%) 
+edges                 1622/256000       6488/1024000  ( 0.6%) 
+LDR worldlights          4/65536         352/5767168  ( 0.0%) 
+HDR worldlights          0/65536           0/5767168  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           144/65536         288/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      571548/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1186/16777216 ( 0.0%) 
+entdata               [variable]       36778/393216   ( 9.4%) 
+LDR ambient table      425/65536        1700/262144   ( 0.6%) 
+HDR ambient table      425/65536        1700/262144   ( 0.6%) 
+LDR leaf ambient       990/65536       27720/1835008  ( 1.5%) 
+HDR leaf ambient       425/65536       11900/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1178     ( 0.1%) 
+pakfile               [variable]         724/0        ( 0.0%) 
+physics               [variable]       27631/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1216
+Writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.vmf
+Could not locate GameData file 
+Patching WVT material: maps/gb_sandbox/nature/blendgrassdirt01_wvt_patch
+Patching WVT material: maps/gb_sandbox/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity sky_camera (3392.00 5568.00 -2368.00) leaked!
+--- MAP LEAKED ---
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.vmf
+Could not locate GameData file 
+Patching WVT material: maps/gb_sandbox/nature/blendgrassdirt01_wvt_patch
+Patching WVT material: maps/gb_sandbox/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (4544.00 4320.00 -2368.00) leaked!
+--- MAP LEAKED ---
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.vmf
+Could not locate GameData file 
+Patching WVT material: maps/gb_sandbox/nature/blendgrassdirt01_wvt_patch
+Patching WVT material: maps/gb_sandbox/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (4544.00 4320.00 -2368.00) leaked!
+--- MAP LEAKED ---
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.vmf
+Could not locate GameData file 
+Patching WVT material: maps/gb_sandbox/nature/blendgrassdirt01_wvt_patch
+Patching WVT material: maps/gb_sandbox/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (27631 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 270 texinfos to 117
+Reduced 17 texdatas to 15 (421 bytes to 373)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.prt
+  54 portalclusters
+ 122 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2388
+Average clusters visible: 44
+Building PAS...
+Average clusters audible: 51
+visdatasize:1186  compressed from 864
+writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+461 faces
+977362 square feet [140740192.00 square inches]
+1 Displacements
+64856 Square Feet [9339338.00 Square Inches]
+461 patches before subdivision
+16165 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 300420, max 444
+transfer lists:   2.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1395, 1332, 703)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(43, 37, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6, 6, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0040 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                 65/8192          780/98304    ( 0.8%) 
+brushsides             396/65536        3168/524288   ( 0.6%) 
+planes                 492/65536        9840/1310720  ( 0.8%) 
+vertexes               622/65536        7464/786432   ( 0.9%) 
+nodes                  398/65536       12736/2097152  ( 0.6%) 
+texinfos               117/12288        8424/884736   ( 1.0%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts              81/0            1620/0        ( 0.0%) 
+disp_tris              128/0             256/0        ( 0.0%) 
+disp_lmsamples       61008/0           61008/0        ( 0.0%) 
+faces                  461/65536       25816/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              207/65536       11592/3670016  ( 0.3%) 
+leaves                 425/65536       13600/2097152  ( 0.6%) 
+leaffaces              470/65536         940/131072   ( 0.7%) 
+leafbrushes            221/65536         442/131072   ( 0.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2778/512000      11112/2048000  ( 0.5%) 
+edges                 1466/256000       5864/1024000  ( 0.6%) 
+LDR worldlights          4/65536         352/5767168  ( 0.0%) 
+HDR worldlights          0/65536           0/5767168  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           144/65536         288/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      472240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1186/16777216 ( 0.0%) 
+entdata               [variable]       36778/393216   ( 9.4%) 
+LDR ambient table      425/65536        1700/262144   ( 0.6%) 
+HDR ambient table      425/65536        1700/262144   ( 0.6%) 
+LDR leaf ambient      1003/65536       28084/1835008  ( 1.5%) 
+HDR leaf ambient       425/65536       11900/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/197900   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1178     ( 0.1%) 
+pakfile               [variable]         724/0        ( 0.0%) 
+physics               [variable]       27631/4194304  ( 0.7%) 
+physics terrain       [variable]         195/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1036
+Writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.vmf
+Could not locate GameData file 
+Patching WVT material: maps/gb_sandbox/nature/blendgrassdirt01_wvt_patch
+Patching WVT material: maps/gb_sandbox/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (27631 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 270 texinfos to 117
+Reduced 18 texdatas to 15 (452 bytes to 380)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.prt
+  54 portalclusters
+ 122 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2388
+Average clusters visible: 44
+Building PAS...
+Average clusters audible: 51
+visdatasize:1186  compressed from 864
+writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+461 faces
+977362 square feet [140740192.00 square inches]
+1 Displacements
+64856 Square Feet [9339338.00 Square Inches]
+461 patches before subdivision
+16165 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 300420, max 444
+transfer lists:   2.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1395, 1332, 703)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(43, 37, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6, 6, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0041 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                 65/8192          780/98304    ( 0.8%) 
+brushsides             396/65536        3168/524288   ( 0.6%) 
+planes                 492/65536        9840/1310720  ( 0.8%) 
+vertexes               622/65536        7464/786432   ( 0.9%) 
+nodes                  398/65536       12736/2097152  ( 0.6%) 
+texinfos               117/12288        8424/884736   ( 1.0%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts              81/0            1620/0        ( 0.0%) 
+disp_tris              128/0             256/0        ( 0.0%) 
+disp_lmsamples       61008/0           61008/0        ( 0.0%) 
+faces                  461/65536       25816/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              207/65536       11592/3670016  ( 0.3%) 
+leaves                 425/65536       13600/2097152  ( 0.6%) 
+leaffaces              470/65536         940/131072   ( 0.7%) 
+leafbrushes            221/65536         442/131072   ( 0.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2778/512000      11112/2048000  ( 0.5%) 
+edges                 1466/256000       5864/1024000  ( 0.6%) 
+LDR worldlights          4/65536         352/5767168  ( 0.0%) 
+HDR worldlights          0/65536           0/5767168  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           144/65536         288/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      472240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1186/16777216 ( 0.0%) 
+entdata               [variable]       36778/393216   ( 9.4%) 
+LDR ambient table      425/65536        1700/262144   ( 0.6%) 
+HDR ambient table      425/65536        1700/262144   ( 0.6%) 
+LDR leaf ambient      1003/65536       28084/1835008  ( 1.5%) 
+HDR leaf ambient       425/65536       11900/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1178     ( 0.1%) 
+pakfile               [variable]         724/0        ( 0.0%) 
+physics               [variable]       27631/4194304  ( 0.7%) 
+physics terrain       [variable]         195/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1036
+Writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.vmf
+Could not locate GameData file 
+Patching WVT material: maps/gb_sandbox/nature/blendgrassdirt01_wvt_patch
+Patching WVT material: maps/gb_sandbox/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (27631 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 270 texinfos to 117
+Reduced 18 texdatas to 15 (452 bytes to 380)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.prt
+  54 portalclusters
+ 122 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2388
+Average clusters visible: 44
+Building PAS...
+Average clusters audible: 51
+visdatasize:1186  compressed from 864
+writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+461 faces
+977362 square feet [140740192.00 square inches]
+1 Displacements
+64856 Square Feet [9339338.00 Square Inches]
+461 patches before subdivision
+16165 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 300420, max 444
+transfer lists:   2.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1542, 1480, 841)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(87, 82, 50)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(20, 21, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(7, 7, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0041 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                 65/8192          780/98304    ( 0.8%) 
+brushsides             396/65536        3168/524288   ( 0.6%) 
+planes                 492/65536        9840/1310720  ( 0.8%) 
+vertexes               622/65536        7464/786432   ( 0.9%) 
+nodes                  398/65536       12736/2097152  ( 0.6%) 
+texinfos               117/12288        8424/884736   ( 1.0%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts              81/0            1620/0        ( 0.0%) 
+disp_tris              128/0             256/0        ( 0.0%) 
+disp_lmsamples       61008/0           61008/0        ( 0.0%) 
+faces                  461/65536       25816/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              207/65536       11592/3670016  ( 0.3%) 
+leaves                 425/65536       13600/2097152  ( 0.6%) 
+leaffaces              470/65536         940/131072   ( 0.7%) 
+leafbrushes            221/65536         442/131072   ( 0.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2778/512000      11112/2048000  ( 0.5%) 
+edges                 1466/256000       5864/1024000  ( 0.6%) 
+LDR worldlights          4/65536         352/5767168  ( 0.0%) 
+HDR worldlights          0/65536           0/5767168  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           144/65536         288/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      472240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1186/16777216 ( 0.0%) 
+entdata               [variable]       36778/393216   ( 9.4%) 
+LDR ambient table      425/65536        1700/262144   ( 0.6%) 
+HDR ambient table      425/65536        1700/262144   ( 0.6%) 
+LDR leaf ambient      1006/65536       28168/1835008  ( 1.5%) 
+HDR leaf ambient       425/65536       11900/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1178     ( 0.1%) 
+pakfile               [variable]         724/0        ( 0.0%) 
+physics               [variable]       27631/4194304  ( 0.7%) 
+physics terrain       [variable]         195/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1036
+Writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.vmf
+Could not locate GameData file 
+Patching WVT material: maps/gb_sandbox/nature/blendgrassdirt01_wvt_patch
+Patching WVT material: maps/gb_sandbox/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (27631 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 270 texinfos to 117
+Reduced 18 texdatas to 15 (452 bytes to 380)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.prt
+  54 portalclusters
+ 122 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2388
+Average clusters visible: 44
+Building PAS...
+Average clusters audible: 51
+visdatasize:1186  compressed from 864
+writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+461 faces
+977362 square feet [140740192.00 square inches]
+1 Displacements
+64856 Square Feet [9339338.00 Square Inches]
+461 patches before subdivision
+16165 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 300420, max 444
+transfer lists:   2.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1538, 1476, 838)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(86, 80, 49)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(20, 20, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(7, 7, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0042 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                 65/8192          780/98304    ( 0.8%) 
+brushsides             396/65536        3168/524288   ( 0.6%) 
+planes                 492/65536        9840/1310720  ( 0.8%) 
+vertexes               622/65536        7464/786432   ( 0.9%) 
+nodes                  398/65536       12736/2097152  ( 0.6%) 
+texinfos               117/12288        8424/884736   ( 1.0%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts              81/0            1620/0        ( 0.0%) 
+disp_tris              128/0             256/0        ( 0.0%) 
+disp_lmsamples       61008/0           61008/0        ( 0.0%) 
+faces                  461/65536       25816/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              207/65536       11592/3670016  ( 0.3%) 
+leaves                 425/65536       13600/2097152  ( 0.6%) 
+leaffaces              470/65536         940/131072   ( 0.7%) 
+leafbrushes            221/65536         442/131072   ( 0.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2778/512000      11112/2048000  ( 0.5%) 
+edges                 1466/256000       5864/1024000  ( 0.6%) 
+LDR worldlights          4/65536         352/5767168  ( 0.0%) 
+HDR worldlights          0/65536           0/5767168  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           144/65536         288/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      472240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1186/16777216 ( 0.0%) 
+entdata               [variable]       36778/393216   ( 9.4%) 
+LDR ambient table      425/65536        1700/262144   ( 0.6%) 
+HDR ambient table      425/65536        1700/262144   ( 0.6%) 
+LDR leaf ambient       998/65536       27944/1835008  ( 1.5%) 
+HDR leaf ambient       425/65536       11900/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1178     ( 0.1%) 
+pakfile               [variable]         724/0        ( 0.0%) 
+physics               [variable]       27631/4194304  ( 0.7%) 
+physics terrain       [variable]         195/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1036
+Writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.vmf
+Could not locate GameData file 
+Patching WVT material: maps/gb_sandbox/nature/blendgrassdirt01_wvt_patch
+Patching WVT material: maps/gb_sandbox/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (27631 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 270 texinfos to 117
+Reduced 18 texdatas to 15 (452 bytes to 380)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.prt
+  54 portalclusters
+ 122 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2388
+Average clusters visible: 44
+Building PAS...
+Average clusters audible: 51
+visdatasize:1186  compressed from 864
+writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+461 faces
+977362 square feet [140740192.00 square inches]
+1 Displacements
+64856 Square Feet [9339338.00 Square Inches]
+461 patches before subdivision
+16165 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 300420, max 444
+transfer lists:   2.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1538, 1476, 838)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(86, 80, 49)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(20, 20, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(7, 7, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0040 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                 65/8192          780/98304    ( 0.8%) 
+brushsides             396/65536        3168/524288   ( 0.6%) 
+planes                 492/65536        9840/1310720  ( 0.8%) 
+vertexes               622/65536        7464/786432   ( 0.9%) 
+nodes                  398/65536       12736/2097152  ( 0.6%) 
+texinfos               117/12288        8424/884736   ( 1.0%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts              81/0            1620/0        ( 0.0%) 
+disp_tris              128/0             256/0        ( 0.0%) 
+disp_lmsamples       61008/0           61008/0        ( 0.0%) 
+faces                  461/65536       25816/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              207/65536       11592/3670016  ( 0.3%) 
+leaves                 425/65536       13600/2097152  ( 0.6%) 
+leaffaces              470/65536         940/131072   ( 0.7%) 
+leafbrushes            221/65536         442/131072   ( 0.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2778/512000      11112/2048000  ( 0.5%) 
+edges                 1466/256000       5864/1024000  ( 0.6%) 
+LDR worldlights          4/65536         352/5767168  ( 0.0%) 
+HDR worldlights          0/65536           0/5767168  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           144/65536         288/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      472240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1186/16777216 ( 0.0%) 
+entdata               [variable]       36778/393216   ( 9.4%) 
+LDR ambient table      425/65536        1700/262144   ( 0.6%) 
+HDR ambient table      425/65536        1700/262144   ( 0.6%) 
+LDR leaf ambient       998/65536       27944/1835008  ( 1.5%) 
+HDR leaf ambient       425/65536       11900/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1178     ( 0.1%) 
+pakfile               [variable]         724/0        ( 0.0%) 
+physics               [variable]       27631/4194304  ( 0.7%) 
+physics terrain       [variable]         195/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1036
+Writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.vmf
+Could not locate GameData file 
+Patching WVT material: maps/gb_sandbox/nature/blendgrassdirt01_wvt_patch
+Patching WVT material: maps/gb_sandbox/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (27631 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 270 texinfos to 117
+Reduced 18 texdatas to 15 (452 bytes to 380)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.prt
+  54 portalclusters
+ 122 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2388
+Average clusters visible: 44
+Building PAS...
+Average clusters audible: 51
+visdatasize:1186  compressed from 864
+writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+461 faces
+977362 square feet [140740192.00 square inches]
+1 Displacements
+64856 Square Feet [9339338.00 Square Inches]
+461 patches before subdivision
+16165 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 300420, max 444
+transfer lists:   2.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1529, 1467, 829)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(82, 77, 46)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(19, 19, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(6, 6, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0041 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                 65/8192          780/98304    ( 0.8%) 
+brushsides             396/65536        3168/524288   ( 0.6%) 
+planes                 492/65536        9840/1310720  ( 0.8%) 
+vertexes               622/65536        7464/786432   ( 0.9%) 
+nodes                  398/65536       12736/2097152  ( 0.6%) 
+texinfos               117/12288        8424/884736   ( 1.0%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts              81/0            1620/0        ( 0.0%) 
+disp_tris              128/0             256/0        ( 0.0%) 
+disp_lmsamples       61008/0           61008/0        ( 0.0%) 
+faces                  461/65536       25816/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              207/65536       11592/3670016  ( 0.3%) 
+leaves                 425/65536       13600/2097152  ( 0.6%) 
+leaffaces              470/65536         940/131072   ( 0.7%) 
+leafbrushes            221/65536         442/131072   ( 0.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2778/512000      11112/2048000  ( 0.5%) 
+edges                 1466/256000       5864/1024000  ( 0.6%) 
+LDR worldlights          4/65536         352/5767168  ( 0.0%) 
+HDR worldlights          0/65536           0/5767168  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           144/65536         288/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      472240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1186/16777216 ( 0.0%) 
+entdata               [variable]       36778/393216   ( 9.4%) 
+LDR ambient table      425/65536        1700/262144   ( 0.6%) 
+HDR ambient table      425/65536        1700/262144   ( 0.6%) 
+LDR leaf ambient       994/65536       27832/1835008  ( 1.5%) 
+HDR leaf ambient       425/65536       11900/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1178     ( 0.1%) 
+pakfile               [variable]         724/0        ( 0.0%) 
+physics               [variable]       27631/4194304  ( 0.7%) 
+physics terrain       [variable]         195/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1036
+Writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.vmf
+Could not locate GameData file 
+Patching WVT material: maps/gb_sandbox/nature/blendgrassdirt01_wvt_patch
+Patching WVT material: maps/gb_sandbox/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (27631 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 270 texinfos to 117
+Reduced 18 texdatas to 15 (452 bytes to 380)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.prt
+  54 portalclusters
+ 122 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2388
+Average clusters visible: 44
+Building PAS...
+Average clusters audible: 51
+visdatasize:1186  compressed from 864
+writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+461 faces
+977362 square feet [140740192.00 square inches]
+1 Displacements
+64856 Square Feet [9339338.00 Square Inches]
+461 patches before subdivision
+16165 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 300420, max 444
+transfer lists:   2.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1529, 1467, 829)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(82, 77, 46)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(19, 19, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(6, 6, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0041 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                 65/8192          780/98304    ( 0.8%) 
+brushsides             396/65536        3168/524288   ( 0.6%) 
+planes                 492/65536        9840/1310720  ( 0.8%) 
+vertexes               622/65536        7464/786432   ( 0.9%) 
+nodes                  398/65536       12736/2097152  ( 0.6%) 
+texinfos               117/12288        8424/884736   ( 1.0%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts              81/0            1620/0        ( 0.0%) 
+disp_tris              128/0             256/0        ( 0.0%) 
+disp_lmsamples       61008/0           61008/0        ( 0.0%) 
+faces                  461/65536       25816/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              207/65536       11592/3670016  ( 0.3%) 
+leaves                 425/65536       13600/2097152  ( 0.6%) 
+leaffaces              470/65536         940/131072   ( 0.7%) 
+leafbrushes            221/65536         442/131072   ( 0.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2778/512000      11112/2048000  ( 0.5%) 
+edges                 1466/256000       5864/1024000  ( 0.6%) 
+LDR worldlights          4/65536         352/5767168  ( 0.0%) 
+HDR worldlights          0/65536           0/5767168  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           144/65536         288/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      472240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1186/16777216 ( 0.0%) 
+entdata               [variable]       36776/393216   ( 9.4%) 
+LDR ambient table      425/65536        1700/262144   ( 0.6%) 
+HDR ambient table      425/65536        1700/262144   ( 0.6%) 
+LDR leaf ambient       994/65536       27832/1835008  ( 1.5%) 
+HDR leaf ambient       425/65536       11900/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1178     ( 0.1%) 
+pakfile               [variable]         724/0        ( 0.0%) 
+physics               [variable]       27631/4194304  ( 0.7%) 
+physics terrain       [variable]         195/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1036
+Writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.vmf
+Could not locate GameData file 
+Patching WVT material: maps/gb_sandbox/nature/blendgrassdirt01_wvt_patch
+Patching WVT material: maps/gb_sandbox/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (27631 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 270 texinfos to 117
+Reduced 18 texdatas to 15 (452 bytes to 380)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.prt
+  54 portalclusters
+ 122 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2388
+Average clusters visible: 44
+Building PAS...
+Average clusters audible: 51
+visdatasize:1186  compressed from 864
+writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+461 faces
+977362 square feet [140740192.00 square inches]
+1 Displacements
+64856 Square Feet [9339338.00 Square Inches]
+461 patches before subdivision
+16165 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 300420, max 444
+transfer lists:   2.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1529, 1467, 829)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(82, 77, 46)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(19, 19, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(6, 6, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0041 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                 65/8192          780/98304    ( 0.8%) 
+brushsides             396/65536        3168/524288   ( 0.6%) 
+planes                 492/65536        9840/1310720  ( 0.8%) 
+vertexes               622/65536        7464/786432   ( 0.9%) 
+nodes                  398/65536       12736/2097152  ( 0.6%) 
+texinfos               117/12288        8424/884736   ( 1.0%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts              81/0            1620/0        ( 0.0%) 
+disp_tris              128/0             256/0        ( 0.0%) 
+disp_lmsamples       61008/0           61008/0        ( 0.0%) 
+faces                  461/65536       25816/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              207/65536       11592/3670016  ( 0.3%) 
+leaves                 425/65536       13600/2097152  ( 0.6%) 
+leaffaces              470/65536         940/131072   ( 0.7%) 
+leafbrushes            221/65536         442/131072   ( 0.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2778/512000      11112/2048000  ( 0.5%) 
+edges                 1466/256000       5864/1024000  ( 0.6%) 
+LDR worldlights          4/65536         352/5767168  ( 0.0%) 
+HDR worldlights          0/65536           0/5767168  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           144/65536         288/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      472240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1186/16777216 ( 0.0%) 
+entdata               [variable]       36776/393216   ( 9.4%) 
+LDR ambient table      425/65536        1700/262144   ( 0.6%) 
+HDR ambient table      425/65536        1700/262144   ( 0.6%) 
+LDR leaf ambient       994/65536       27832/1835008  ( 1.5%) 
+HDR leaf ambient       425/65536       11900/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1178     ( 0.1%) 
+pakfile               [variable]         724/0        ( 0.0%) 
+physics               [variable]       27631/4194304  ( 0.7%) 
+physics terrain       [variable]         195/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1036
+Writing c:\program files (x86)\steam\steamapps\sourcemods\gigabuilder\mapsrc\personal\ian\gb_sandbox.bsp
+1 second elapsed
