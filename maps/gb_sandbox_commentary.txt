@@ -1,0 +1,18 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Zubin Factory"
+		"origin" "-609.2399902344 152.4100036621 -448.5"
+		"angles" "0 116.3099975586 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\sandbox_zubinfactory.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Ian Earley"
+		"synopsis" "Hello! Welcome to my gamer zone. This is the zubin factory, please enjoy half life 7!"
+	}
+}
