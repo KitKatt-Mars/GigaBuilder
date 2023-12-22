@@ -1,0 +1,8 @@
+// Made with XBLAH's Modding tool.
+// Download it at https://github.com/jean-knapp/windows-source-modding-tool/releases
+
+"VertexLitGeneric"
+{
+	"$basetexture"	"gigabuilder/robcantorplush_basetexture"
+	"%tooltexture"	"gigabuilder/robcantorplush_tooltexture"
+}

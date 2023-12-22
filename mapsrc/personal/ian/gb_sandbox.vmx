@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "93"
+	"mapversion" "105"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -64,7 +64,7 @@ light_plus
 	"soften_cosine" "0"
 	"debug" "0"
 	"cubemap" "1"
-	"hdr" "0"
+	"hdr" "1"
 }
 bgimages_plus
 {
@@ -72,12 +72,12 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "93"
+	"mapversion" "105"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
-	"skyname" "sky_day01_01"
+	"skyname" "sky_day01_08"
 	solid
 	{
 		"id" "702"
@@ -3652,7 +3652,7 @@ world
 				"v" "1856 4032 -2368"
 				"v" "1856 7104 -2368"
 			}
-			"material" "NATURE/BLENDGRASSDIRT01_NOPROP"
+			"material" "NATURE/BLENDGRASSDIRT001A"
 			"uaxis" "[0 -1 0 0] 0.0063"
 			"vaxis" "[-1 0 0 0] 0.0063"
 			"rotation" "0"
@@ -3667,27 +3667,27 @@ world
 				"subdiv" "0"
 				normals
 				{
-					"row0" "0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1"
-					"row1" "0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0"
-					"row2" "0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 0 1"
-					"row3" "0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1"
-					"row4" "0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1"
-					"row5" "0 0 1 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1"
-					"row6" "0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1"
-					"row7" "0 0 1 0 0 1 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0"
+					"row0" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row1" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 1 0 0 1"
+					"row2" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 0 1"
+					"row3" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 0 1 0 0 1"
+					"row4" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row5" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row6" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 0 1"
+					"row7" "0 0 1 0 0 1 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
 					"row8" "0 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0"
 				}
 				distances
 				{
-					"row0" "0 0 0 5 0 0 25 0 5"
-					"row1" "0 15 5 5 0 0 0 10 0"
-					"row2" "0 20 5 15 15 15 15 0 5"
-					"row3" "10 0 5 35 0 0 10 5 5"
-					"row4" "0 115 15 0 0 0 5 0 5"
-					"row5" "10 40 0 0 5 0 0 0 15"
-					"row6" "0 0 0 15 50 0 5 0 10"
-					"row7" "5 10 0 5 40 45 30 15 0"
-					"row8" "30 30 15 0 0 5 10 0 0"
+					"row0" "80 65 75 70 35 5 30 70 15"
+					"row1" "140 150 5 30 15 145 55 20 75"
+					"row2" "45 20 5 5 5 5 15 0 35"
+					"row3" "10 5 5 5 5 5 0 5 60"
+					"row4" "55 120 5 5 5 5 5 5 30"
+					"row5" "30 40 5 5 5 5 5 30 95"
+					"row6" "55 5 5 5 5 5 5 0 130"
+					"row7" "60 70 0 5 40 45 30 15 105"
+					"row8" "60 75 70 0 0 5 10 0 0"
 				}
 				offsets
 				{
@@ -3715,15 +3715,15 @@ world
 				}
 				alphas
 				{
-					"row0" "0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0"
+					"row0" "255 255 255 255 230 0 255 255 230"
+					"row1" "255 255 255 255 255 255 255 0 0"
+					"row2" "255 255 255 255 255 255 0 0 255"
+					"row3" "0 255 255 255 255 255 255 255 255"
+					"row4" "255 255 255 255 255 255 255 255 255"
+					"row5" "255 255 255 255 255 255 255 0 255"
+					"row6" "255 255 0 255 255 255 255 0 0"
+					"row7" "255 255 255 255 255 255 255 0 0"
+					"row8" "255 255 255 255 255 255 255 255 255"
 				}
 				triangle_tags
 				{
@@ -7931,7 +7931,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "4736 4160 -2272"
+	"origin" "4320 4624 -2272"
 	editor
 	{
 		"color" "255 255 0"
@@ -7958,7 +7958,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "2336 6688 -2360"
+	"origin" "2728 6168 -2360"
 	editor
 	{
 		"color" "255 255 0"
@@ -7985,7 +7985,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "2208 6816 -2368"
+	"origin" "2600 6296 -2368"
 	editor
 	{
 		"color" "255 255 0"
@@ -10561,10 +10561,9 @@ entity
 entity
 {
 	"id" "4333"
-	"classname" "prop_vehicle_jeep"
+	"classname" "prop_vehicle_jeep_old"
 	"actionScale" "1"
 	"angles" "0 270 0"
-	"CargoVisible" "0"
 	"disableselfshadowing" "0"
 	"disableshadows" "0"
 	"disablevertexlighting" "0"
@@ -10578,7 +10577,6 @@ entity
 	"origin" "-416 384 65"
 	"screenspacefade" "0"
 	"skin" "0"
-	"solid" "6"
 	"VehicleLocked" "0"
 	"vehiclescript" "scripts/vehicles/jeep_test.txt"
 	editor
@@ -10673,7 +10671,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "4544 4320 -2368"
+	"origin" "4456 4872 -2368"
 	editor
 	{
 		"color" "255 255 0"
@@ -10700,7 +10698,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "2272 6976 -2368"
+	"origin" "2664 6456 -2368"
 	editor
 	{
 		"color" "255 255 0"
@@ -10727,7 +10725,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "2048 6912 -2360"
+	"origin" "2440 6392 -2360"
 	editor
 	{
 		"color" "255 255 0"
