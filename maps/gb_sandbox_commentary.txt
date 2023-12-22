@@ -15,4 +15,19 @@
 		"speakers" "Ian Earley"
 		"synopsis" "Hello! Welcome to my gamer zone. This is the zubin factory, please enjoy half life 7!"
 	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "Introduction"
+		"origin" "817.4799804688 -24.2399997711 187.4799957275"
+		"angles" "0 -31.2800006866 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentary\gb_sandbox_commintro.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Giga Garry"
+		"synopsis" ""
+	}
 }

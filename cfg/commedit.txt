@@ -2,7 +2,7 @@ CommEdit
 {
     toolwindow
     {
-        bounds "0.5000000001 0.4635416805 0.5000000001 0.5000000149"
+        bounds "0.5000000001 0.4690382131 0.5000000001 0.5059288591"
         windows
         {
             panel "properties"
@@ -10,7 +10,7 @@ CommEdit
     }
     toolwindow
     {
-        bounds "0.0000000000 0.0364583344 0.5000000001 0.9270833610"
+        bounds "0.0000000000 0.0368906460 0.5000000001 0.9380764263"
         windows
         {
             panel "commentarynodebrowser"
