@@ -3801,3 +3801,9 @@ Level flags = 0
 Total triangle count: 3507
 Writing d:\steam\steamapps\sourcemods\gigabuilder\mapsrc\gb_hub.bsp
 3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\GigaBuilder\materials
+Loading D:\Steam\steamapps\sourcemods\GigaBuilder\mapsrc\gb_hub.vmf
+Entity 5: func_areaportal can only be a single brush
