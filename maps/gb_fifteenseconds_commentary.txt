@@ -1,0 +1,18 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "15seconds"
+		"origin" "99.4000015259 0.3199999928 -127.9199981689"
+		"angles" "0 0.5299999714 0"
+		"precommands" ""
+		"postcommands" "disconnect"
+		"commentaryfile" "#personal\ian\15secondsofbora.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" "Bora Karaca"
+		"synopsis" ""
+	}
+}
