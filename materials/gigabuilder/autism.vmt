@@ -3,6 +3,6 @@
 
 "LightmappedGeneric"
 {
-	"$basetexture"	"gigabuilder/robcantorplush_basetexture"
-	"%tooltexture"	"gigabuilder/robcantorplush_tooltexture"
+	"$basetexture"	"gigabuilder/autism_basetexture"
+	"%tooltexture"	"gigabuilder/autism_tooltexture"
 }
