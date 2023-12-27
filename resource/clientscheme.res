@@ -61,6 +61,7 @@ Scheme
 		"Main.Title2.Y_hidef"		"174"
 		"Main.Title2.Color"	"252 121 61 200"
 
+
 		// Top-left corner of the menu on the main screen
 		"Main.Menu.X"			"53"
 		"Main.Menu.X_hidef"		"76"
@@ -783,7 +784,7 @@ Scheme
 			}
 
 		}
-				// ========================================================================================================================
+		// ========================================================================================================================
 		// Mapbase adds these fonts to Source 2013 client schemes for the game instructor adapted from the VDC/Alien Swarm SDK.
 		// If your mod has its own client scheme, you must use the following fonts in order for the game instructor to work correctly.
 		// ========================================================================================================================
