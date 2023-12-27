@@ -911,8 +911,8 @@ Scheme
 
 		FrameBorder
 		{
-			// rounded corners for frames
-			"backgroundtype" "2"
+			// square corners for frames
+			"backgroundtype" "0"
 		}
 
 		DepressedBorder
