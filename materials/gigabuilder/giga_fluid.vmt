@@ -1,0 +1,24 @@
+Water
+{
+	$surfaceprop Water
+
+	$normalmap "gigabuilder/water_frame01_normal"
+
+	$abovewater 1
+
+	$reflecttint "{255 128 1}"
+	$reflectamount 0.2
+
+	$refracttexture "_rt_waterrefraction"
+	$refract 1
+
+	$fogenable 1
+	$fogcolor "{255 128 65}"
+	$fogstart 10
+	$fogend 9000
+	$flashlighttint 5
+
+	$vertexalpha 1
+
+	%compilewater 1
+}
