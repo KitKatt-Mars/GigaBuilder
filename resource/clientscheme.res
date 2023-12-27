@@ -791,7 +791,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Arial"
+				"name"			"Bahnschrift Condensed"
 				"tall"			"20"
 				"weight"		"400"
 				"antialias"		"1"
