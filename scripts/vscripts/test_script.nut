@@ -12,6 +12,6 @@ function HealPlayer()
 
 function HendersonPlayer()
 {
-	Msg("Henderson")
+	Msg("Henderson\n")
 	EntFire("!player", "Kill")
 }
