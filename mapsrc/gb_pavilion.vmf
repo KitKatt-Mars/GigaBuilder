@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "29"
+	"mapversion" "31"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "4"
 }
 palette_plus
 {
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "29"
+	"mapversion" "31"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -1152,7 +1152,7 @@ world
 			"vaxis" "[0 -1 0 160] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1176,7 +1176,7 @@ world
 			"vaxis" "[0 -1 0 160] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1194,7 +1194,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1212,7 +1212,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1230,7 +1230,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1248,7 +1248,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1266,7 +1266,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1284,7 +1284,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1302,7 +1302,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1320,7 +1320,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1338,7 +1338,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1356,7 +1356,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		editor
 		{
@@ -1390,7 +1390,7 @@ world
 			"vaxis" "[0 -1 0 160] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1414,7 +1414,7 @@ world
 			"vaxis" "[0 -1 0 160] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1432,7 +1432,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1450,7 +1450,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1468,7 +1468,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1486,7 +1486,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1504,7 +1504,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1522,7 +1522,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1540,7 +1540,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1558,7 +1558,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1576,7 +1576,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -1594,7 +1594,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		editor
 		{
@@ -7806,7 +7806,7 @@ world
 			"vaxis" "[0 -1 0 -304] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -7830,7 +7830,7 @@ world
 			"vaxis" "[0 -1 0 -304] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -7848,7 +7848,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -7866,7 +7866,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -7884,7 +7884,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -7902,7 +7902,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -7920,7 +7920,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -7938,7 +7938,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -7956,7 +7956,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -7974,7 +7974,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -7992,7 +7992,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -8010,7 +8010,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		editor
 		{
@@ -8044,7 +8044,7 @@ world
 			"vaxis" "[0 -1 0 -304] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -8068,7 +8068,7 @@ world
 			"vaxis" "[0 -1 0 -304] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -8086,7 +8086,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -8104,7 +8104,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -8122,7 +8122,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -8140,7 +8140,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -8158,7 +8158,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -8176,7 +8176,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -8194,7 +8194,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -8212,7 +8212,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -8230,7 +8230,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		side
 		{
@@ -8248,7 +8248,7 @@ world
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
-			"smoothing_groups" "0"
+			"smoothing_groups" "4194304"
 		}
 		editor
 		{
@@ -8393,6 +8393,62 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2846"
+	"classname" "prop_vehicle_airboat"
+	"actionScale" "1"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"EnableGun" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/airboat.mdl"
+	"origin" "-1216 -136 -16"
+	"screenspacefade" "0"
+	"solid" "6"
+	"VehicleLocked" "0"
+	"vehiclescript" "scripts/vehicles/airboat.txt"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2861"
+	"classname" "prop_vehicle_airboat"
+	"actionScale" "1"
+	"angles" "0 15 0"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"EnableGun" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/airboat.mdl"
+	"origin" "-1248 -476 -16"
+	"screenspacefade" "0"
+	"solid" "6"
+	"VehicleLocked" "0"
+	"vehiclescript" "scripts/vehicles/airboat.txt"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 cameras

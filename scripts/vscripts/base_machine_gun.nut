@@ -1,7 +1,7 @@
 //=============================================================================
-// 
+//
 // This script was made by Blixibon for Mapbase. You can use it as a template for your own scripts.
-// 
+//
 //=============================================================================
 //
 // Purpose: This script serves as a recreaton of CHLMachineGun in VScript.
@@ -31,6 +31,7 @@ m_nShotsFired <- 0
 
 function PrimaryAttack()
 {
+    Msg("Henderson\n")
     printl("---------------------------------------------------")
     printl("Doing PrimaryAttack() for weapon_custom_scripted1")
 
@@ -38,7 +39,7 @@ function PrimaryAttack()
     local pPlayer = self.GetOwner()
     if (!pPlayer)
         return;
-    
+
     // Abort here to handle burst and auto fire modes
 	if ( (self.UsesClipsForAmmo1() && self.Clip1() == 0) || ( !self.UsesClipsForAmmo1() && !pPlayer.GetAmmoCount(self.GetPrimaryAmmoType()) ) )
 		return;
@@ -47,7 +48,7 @@ function PrimaryAttack()
 
 	pPlayer.DoMuzzleFlash();
 
-	// To make the firing framerate independent, we may have to fire more than one bullet here on low-framerate systems, 
+	// To make the firing framerate independent, we may have to fire more than one bullet here on low-framerate systems,
 	// especially if the weapon we're firing has a really fast rate of fire.
 	local iBulletsToFire = 0;
 	local fireRate = self.GetFireRate();
@@ -90,7 +91,7 @@ function PrimaryAttack()
     if (self.Clip1() <= 0 && pPlayer.GetAmmoCount(self.GetPrimaryAmmoType()) <= 0)
 	{
 		// HEV suit - indicate out of ammo condition
-		pPlayer.SetSuitUpdate("!HEV_AMO0", 0, 0); 
+		pPlayer.SetSuitUpdate("!HEV_AMO0", 0, 0);
 	}
 
 	self.SendWeaponAnim( self.GetPrimaryAttackActivity() );
@@ -127,7 +128,7 @@ function GetFireRate()
 }
 
 // The view punch
-g_vecPunch <- Vector(-2,0,0)
+g_vecPunch <- Vector(-233,435,323)
 
 function AddViewKick()
 {

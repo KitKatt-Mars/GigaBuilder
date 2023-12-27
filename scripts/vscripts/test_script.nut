@@ -1,5 +1,6 @@
 function SetPlayerHealthTo69()
 {
+
 	Msg("Attempting to change player health...")
 	EntFire("!player", "SetHealth", "69")
 }
@@ -14,4 +15,9 @@ function HendersonPlayer()
 {
 	Msg("Henderson\n")
 	EntFire("!player", "Kill")
+}
+
+function DrawBoxTst()
+{
+	Label.DrawBox(10, 10, 10, 10, 10, 10, 10, 10, true)
 }

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "28"
+	"mapversion" "31"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "4"
 }
 palette_plus
 {
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "28"
+	"mapversion" "31"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -7191,125 +7191,122 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	hidden
+	solid
 	{
-		solid
+		"id" "2480"
+		side
 		{
-			"id" "2480"
-			side
+			"id" "1713"
+			"plane" "(-2048 2048 -16) (3072 2048 -16) (3072 -3008 -16)"
+			vertices_plus
 			{
-				"id" "1713"
-				"plane" "(-2048 2048 -16) (3072 2048 -16) (3072 -3008 -16)"
-				vertices_plus
-				{
-					"v" "-2048 2048 -16"
-					"v" "3072 2048 -16"
-					"v" "3072 -3008 -16"
-					"v" "-2048 -3008 -16"
-				}
-				"material" "DEV/DEV_WATER3_EXP"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 -1 0 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "-2048 2048 -16"
+				"v" "3072 2048 -16"
+				"v" "3072 -3008 -16"
+				"v" "-2048 -3008 -16"
 			}
-			side
+			"material" "DEV/DEV_WATER3_EXP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1714"
+			"plane" "(-2048 -3008 -192) (3072 -3008 -192) (3072 2048 -192)"
+			vertices_plus
 			{
-				"id" "1714"
-				"plane" "(-2048 -3008 -192) (3072 -3008 -192) (3072 2048 -192)"
-				vertices_plus
-				{
-					"v" "-2048 -3008 -192"
-					"v" "3072 -3008 -192"
-					"v" "3072 2048 -192"
-					"v" "-2048 2048 -192"
-				}
-				"material" "TOOLS/TOOLSNODRAW"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 -1 0 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "-2048 -3008 -192"
+				"v" "3072 -3008 -192"
+				"v" "3072 2048 -192"
+				"v" "-2048 2048 -192"
 			}
-			side
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1715"
+			"plane" "(-2048 2048 -16) (-2048 -3008 -16) (-2048 -3008 -192)"
+			vertices_plus
 			{
-				"id" "1715"
-				"plane" "(-2048 2048 -16) (-2048 -3008 -16) (-2048 -3008 -192)"
-				vertices_plus
-				{
-					"v" "-2048 2048 -16"
-					"v" "-2048 -3008 -16"
-					"v" "-2048 -3008 -192"
-					"v" "-2048 2048 -192"
-				}
-				"material" "TOOLS/TOOLSNODRAW"
-				"uaxis" "[0 1 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "-2048 2048 -16"
+				"v" "-2048 -3008 -16"
+				"v" "-2048 -3008 -192"
+				"v" "-2048 2048 -192"
 			}
-			side
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1716"
+			"plane" "(3072 2048 -192) (3072 -3008 -192) (3072 -3008 -16)"
+			vertices_plus
 			{
-				"id" "1716"
-				"plane" "(3072 2048 -192) (3072 -3008 -192) (3072 -3008 -16)"
-				vertices_plus
-				{
-					"v" "3072 2048 -192"
-					"v" "3072 -3008 -192"
-					"v" "3072 -3008 -16"
-					"v" "3072 2048 -16"
-				}
-				"material" "TOOLS/TOOLSNODRAW"
-				"uaxis" "[0 1 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "3072 2048 -192"
+				"v" "3072 -3008 -192"
+				"v" "3072 -3008 -16"
+				"v" "3072 2048 -16"
 			}
-			side
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1717"
+			"plane" "(3072 2048 -16) (-2048 2048 -16) (-2048 2048 -192)"
+			vertices_plus
 			{
-				"id" "1717"
-				"plane" "(3072 2048 -16) (-2048 2048 -16) (-2048 2048 -192)"
-				vertices_plus
-				{
-					"v" "3072 2048 -16"
-					"v" "-2048 2048 -16"
-					"v" "-2048 2048 -192"
-					"v" "3072 2048 -192"
-				}
-				"material" "TOOLS/TOOLSNODRAW"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "3072 2048 -16"
+				"v" "-2048 2048 -16"
+				"v" "-2048 2048 -192"
+				"v" "3072 2048 -192"
 			}
-			side
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1718"
+			"plane" "(3072 -3008 -192) (-2048 -3008 -192) (-2048 -3008 -16)"
+			vertices_plus
 			{
-				"id" "1718"
-				"plane" "(3072 -3008 -192) (-2048 -3008 -192) (-2048 -3008 -16)"
-				vertices_plus
-				{
-					"v" "3072 -3008 -192"
-					"v" "-2048 -3008 -192"
-					"v" "-2048 -3008 -16"
-					"v" "3072 -3008 -16"
-				}
-				"material" "TOOLS/TOOLSNODRAW"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "3072 -3008 -192"
+				"v" "-2048 -3008 -192"
+				"v" "-2048 -3008 -16"
+				"v" "3072 -3008 -16"
 			}
-			editor
-			{
-				"color" "0 221 122"
-				"visgroupshown" "1"
-				"visgroupautoshown" "0"
-			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 221 122"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
 		}
 	}
 	solid
@@ -8396,6 +8393,62 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2846"
+	"classname" "prop_vehicle_airboat"
+	"actionScale" "1"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"EnableGun" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/airboat.mdl"
+	"origin" "-1216 -136 -16"
+	"screenspacefade" "0"
+	"solid" "6"
+	"VehicleLocked" "0"
+	"vehiclescript" "scripts/vehicles/airboat.txt"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2861"
+	"classname" "prop_vehicle_airboat"
+	"actionScale" "1"
+	"angles" "0 15 0"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"EnableGun" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/airboat.mdl"
+	"origin" "-1248 -476 -16"
+	"screenspacefade" "0"
+	"solid" "6"
+	"VehicleLocked" "0"
+	"vehiclescript" "scripts/vehicles/airboat.txt"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 cameras
